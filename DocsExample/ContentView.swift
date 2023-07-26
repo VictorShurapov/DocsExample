@@ -12,6 +12,7 @@ struct ContentView: View {
         NavigationStack {
             NavigationLink("Alert with Error", destination: AlertWithErrorView())
             NavigationLink("Alert with message", destination: AlertMessageView())
+            NavigationLink("Alert with data", destination: SaveButton())
                 .navigationTitle("Docs Examples")
         }        
     }
