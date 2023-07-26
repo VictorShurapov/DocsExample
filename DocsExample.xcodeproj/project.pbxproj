@@ -17,6 +17,7 @@
 		CEA3EE4A2A715F8600E829DA /* AlertDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE492A715F8600E829DA /* AlertDataModel.swift */; };
 		CEA3EE4C2A71600C00E829DA /* SaveDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE4B2A71600C00E829DA /* SaveDetails.swift */; };
 		CEA3EE4F2A7161DA00E829DA /* SaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE4E2A7161DA00E829DA /* SaveButton.swift */; };
+		CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE502A71676D00E829DA /* TicketPurchase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		CEA3EE492A715F8600E829DA /* AlertDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDataModel.swift; sourceTree = "<group>"; };
 		CEA3EE4B2A71600C00E829DA /* SaveDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveDetails.swift; sourceTree = "<group>"; };
 		CEA3EE4E2A7161DA00E829DA /* SaveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButton.swift; sourceTree = "<group>"; };
+		CEA3EE502A71676D00E829DA /* TicketPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketPurchase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				CEA3EE402A70357300E829DA /* AlertWithErrorView.swift */,
+				CEA3EE502A71676D00E829DA /* TicketPurchase.swift */,
 				CEA3EE422A7036BC00E829DA /* AlertLocalizedError.swift */,
 			);
 			path = AlertWithErrorView;
@@ -176,6 +179,7 @@
 				CEA3EE462A71561300E829DA /* AlertMessageView.swift in Sources */,
 				CEA3EE332A702FC400E829DA /* ContentView.swift in Sources */,
 				CEA3EE432A7036BD00E829DA /* AlertLocalizedError.swift in Sources */,
+				CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */,
 				CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */,
 				CEA3EE4F2A7161DA00E829DA /* SaveButton.swift in Sources */,
 				CEA3EE412A70357300E829DA /* AlertWithErrorView.swift in Sources */,
