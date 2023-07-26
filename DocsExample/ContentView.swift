@@ -9,13 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        NavigationStack {
+            NavigationLink("Alert with Error", destination: AlertWithErrorView())
+            NavigationLink("Alert with message", destination: AlertMessageView())
+                .navigationTitle("Docs Examples")
+        }        
     }
 }
 
@@ -24,3 +22,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
