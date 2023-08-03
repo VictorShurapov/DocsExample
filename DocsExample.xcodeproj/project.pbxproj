@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE10886E2A7BE45600689958 /* ConfirmEraseItemsMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10886D2A7BE45600689958 /* ConfirmEraseItemsMessage.swift */; };
+		CE1088702A7C05B500689958 /* ConfirmFileImportMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10886F2A7C05B500689958 /* ConfirmFileImportMessage.swift */; };
 		CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */; };
 		CEA3EE332A702FC400E829DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE322A702FC400E829DA /* ContentView.swift */; };
-		CEA3EE352A702FC700E829DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA3EE342A702FC700E829DA /* Assets.xcassets */; };
 		CEA3EE382A702FC700E829DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA3EE372A702FC700E829DA /* Preview Assets.xcassets */; };
 		CEA3EE412A70357300E829DA /* AlertWithErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE402A70357300E829DA /* AlertWithErrorView.swift */; };
 		CEA3EE432A7036BD00E829DA /* AlertLocalizedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE422A7036BC00E829DA /* AlertLocalizedError.swift */; };
@@ -18,13 +19,16 @@
 		CEA3EE4C2A71600C00E829DA /* SaveDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE4B2A71600C00E829DA /* SaveDetails.swift */; };
 		CEA3EE4F2A7161DA00E829DA /* SaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE4E2A7161DA00E829DA /* SaveButton.swift */; };
 		CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE502A71676D00E829DA /* TicketPurchase.swift */; };
+		CEA3EE542A72E2CA00E829DA /* ConfirmEraseItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE532A72E2CA00E829DA /* ConfirmEraseItems.swift */; };
+		CEA3EE562A76A04A00E829DA /* ConfirmFileImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE552A76A04900E829DA /* ConfirmFileImport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE10886D2A7BE45600689958 /* ConfirmEraseItemsMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmEraseItemsMessage.swift; sourceTree = "<group>"; };
+		CE10886F2A7C05B500689958 /* ConfirmFileImportMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmFileImportMessage.swift; sourceTree = "<group>"; };
 		CEA3EE2D2A702FC400E829DA /* DocsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsExampleApp.swift; sourceTree = "<group>"; };
 		CEA3EE322A702FC400E829DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CEA3EE342A702FC700E829DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA3EE372A702FC700E829DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEA3EE402A70357300E829DA /* AlertWithErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWithErrorView.swift; sourceTree = "<group>"; };
 		CEA3EE422A7036BC00E829DA /* AlertLocalizedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertLocalizedError.swift; sourceTree = "<group>"; };
@@ -33,6 +37,8 @@
 		CEA3EE4B2A71600C00E829DA /* SaveDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveDetails.swift; sourceTree = "<group>"; };
 		CEA3EE4E2A7161DA00E829DA /* SaveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButton.swift; sourceTree = "<group>"; };
 		CEA3EE502A71676D00E829DA /* TicketPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketPurchase.swift; sourceTree = "<group>"; };
+		CEA3EE532A72E2CA00E829DA /* ConfirmEraseItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmEraseItems.swift; sourceTree = "<group>"; };
+		CEA3EE552A76A04900E829DA /* ConfirmFileImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmFileImport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE10886C2A7BE13300689958 /* ConfirmationDialog */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3EE532A72E2CA00E829DA /* ConfirmEraseItems.swift */,
+				CE10886D2A7BE45600689958 /* ConfirmEraseItemsMessage.swift */,
+				CEA3EE552A76A04900E829DA /* ConfirmFileImport.swift */,
+				CE10886F2A7C05B500689958 /* ConfirmFileImportMessage.swift */,
+			);
+			path = ConfirmationDialog;
+			sourceTree = "<group>";
+		};
 		CEA3EE242A702FC400E829DA = {
 			isa = PBXGroup;
 			children = (
@@ -67,10 +84,8 @@
 			children = (
 				CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */,
 				CEA3EE322A702FC400E829DA /* ContentView.swift */,
-				CEA3EE452A71561300E829DA /* AlertMessageView.swift */,
-				CEA3EE4D2A7161C000E829DA /* SaveButton */,
-				CEA3EE442A7036CA00E829DA /* AlertWithErrorView */,
-				CEA3EE342A702FC700E829DA /* Assets.xcassets */,
+				CE10886C2A7BE13300689958 /* ConfirmationDialog */,
+				CEA3EE522A72E26C00E829DA /* Alerts */,
 				CEA3EE362A702FC700E829DA /* Preview Content */,
 			);
 			path = DocsExample;
@@ -102,6 +117,16 @@
 				CEA3EE492A715F8600E829DA /* AlertDataModel.swift */,
 			);
 			path = SaveButton;
+			sourceTree = "<group>";
+		};
+		CEA3EE522A72E26C00E829DA /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3EE452A71561300E829DA /* AlertMessageView.swift */,
+				CEA3EE4D2A7161C000E829DA /* SaveButton */,
+				CEA3EE442A7036CA00E829DA /* AlertWithErrorView */,
+			);
+			path = Alerts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +188,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA3EE382A702FC700E829DA /* Preview Assets.xcassets in Resources */,
-				CEA3EE352A702FC700E829DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,12 +200,16 @@
 			files = (
 				CEA3EE4A2A715F8600E829DA /* AlertDataModel.swift in Sources */,
 				CEA3EE4C2A71600C00E829DA /* SaveDetails.swift in Sources */,
+				CE10886E2A7BE45600689958 /* ConfirmEraseItemsMessage.swift in Sources */,
+				CEA3EE542A72E2CA00E829DA /* ConfirmEraseItems.swift in Sources */,
 				CEA3EE462A71561300E829DA /* AlertMessageView.swift in Sources */,
 				CEA3EE332A702FC400E829DA /* ContentView.swift in Sources */,
 				CEA3EE432A7036BD00E829DA /* AlertLocalizedError.swift in Sources */,
 				CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */,
 				CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */,
 				CEA3EE4F2A7161DA00E829DA /* SaveButton.swift in Sources */,
+				CEA3EE562A76A04A00E829DA /* ConfirmFileImport.swift in Sources */,
+				CE1088702A7C05B500689958 /* ConfirmFileImportMessage.swift in Sources */,
 				CEA3EE412A70357300E829DA /* AlertWithErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
