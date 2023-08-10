@@ -23,7 +23,7 @@ struct ConfirmEraseItemsMessage: View {
             }
         } message: {
             Text("You cannot undo this action.")
-        }
+        }        
     }
 }
 

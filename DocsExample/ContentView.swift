@@ -24,6 +24,10 @@ struct ContentView: View {
                 NavigationLink("Confirmation with data", destination: ConfirmFileImport())
                 NavigationLink("Confirmation with data and message", destination: ConfirmFileImportMessage())
             }
+            Section("Sheets") {
+                NavigationLink("Sheet", destination: ShowLicenseAgreement())
+                NavigationLink("Sheet with data", destination: ShowPartDetail())
+            }
         }
     }
 }
