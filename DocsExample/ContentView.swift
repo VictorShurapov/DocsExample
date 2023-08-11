@@ -25,8 +25,12 @@ struct ContentView: View {
                 NavigationLink("Confirmation with data and message", destination: ConfirmFileImportMessage())
             }
             Section("Sheets") {
-                NavigationLink("Sheet", destination: ShowLicenseAgreement())
-                NavigationLink("Sheet with data", destination: ShowPartDetail())
+                NavigationLink("Sheet Binding to Bool value", destination: ShowLicenseAgreement())
+                NavigationLink("Sheet Binding to Data Source", destination: ShowPartDetail())
+            }
+            Section("Full-Screen Cover") {
+                NavigationLink("Full-Screen Cover Binding to Bool value", destination: FullScreenCoverPresentedOnDismiss())
+                NavigationLink("Full-Screen Cover Binding to Data Source", destination: FullScreenCoverItemOnDismissContent())
             }
         }
     }
