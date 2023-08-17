@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+
 struct ShowLicenseAgreement: View {
     @State private var isShowingSheet = false
     
@@ -14,7 +16,7 @@ struct ShowLicenseAgreement: View {
         Button {
             isShowingSheet.toggle()
         } label: {
-            Text("Show License Agreement")
+            Text("Show License Agreement, \(Image(systemName: "globe"))!")
         }
         .sheet(isPresented: $isShowingSheet, onDismiss: didDismiss) {
             VStack {

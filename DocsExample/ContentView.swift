@@ -32,6 +32,10 @@ struct ContentView: View {
                 NavigationLink("Full-Screen Cover Binding to Bool value", destination: FullScreenCoverPresentedOnDismiss())
                 NavigationLink("Full-Screen Cover Binding to Data Source", destination: FullScreenCoverItemOnDismissContent())
             }
+            Section("Popovers") {
+                NavigationLink("Popover with Binding to Bool value", destination: PopoverExample())
+                NavigationLink("Popover with Binding to Data Source", destination: PopoverExampleItem())
+            }
         }
     }
 }
