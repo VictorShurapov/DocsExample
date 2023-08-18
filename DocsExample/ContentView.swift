@@ -36,6 +36,9 @@ struct ContentView: View {
                 NavigationLink("Popover with Binding to Bool value", destination: PopoverExample())
                 NavigationLink("Popover with Binding to Data Source", destination: PopoverExampleItem())
             }
+            Section("Sheet and popover configuration") {
+                NavigationLink("Interactive Dismiss Disabled", destination: PresentationInteractiveDismiss())
+            }
         }
     }
 }
