@@ -10,20 +10,28 @@ import SwiftUI
 struct PresentationDetents: View {
     @State private var showSettings = false
     @State private var settingsDetent = PresentationDetent.medium
+    @State private var presentationDragIndicatorIsVisible: Bool = true
     
     var body: some View {
-        VStack(spacing: 20) {
-            Picker(selection: $settingsDetent, label: /*@START_MENU_TOKEN@*/Text("Picker")/*@END_MENU_TOKEN@*/) {
-                Text(".medium").tag(PresentationDetent.medium)
-                Text(".large").tag(PresentationDetent.large)
+        Form {
+            List {
+                Picker(selection: $settingsDetent, label: Text("Presentation Detent")) {
+                    Text(".medium").tag(PresentationDetent.medium)
+                    Text(".large").tag(PresentationDetent.large)
+                }
+                
+                Picker(selection: $presentationDragIndicatorIsVisible, label: Text("Presentation Drag Indicator")) {
+                    Text("visible").tag(true)
+                    Text("hidden").tag(false)
+                }
             }
-            .pickerStyle(.segmented)
             Button("View Settings") {
                 showSettings = true
             }
             .sheet(isPresented: $showSettings) {
                 SettingsView()
                     .presentationDetents([.medium, .large], selection: $settingsDetent)
+                    .presentationDragIndicator(presentationDragIndicatorIsVisible ? .visible : .hidden)
             }
         }
     }
