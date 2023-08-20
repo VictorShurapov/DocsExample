@@ -29,6 +29,7 @@
 		CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE502A71676D00E829DA /* TicketPurchase.swift */; };
 		CEA3EE542A72E2CA00E829DA /* ConfirmEraseItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE532A72E2CA00E829DA /* ConfirmEraseItems.swift */; };
 		CEA3EE562A76A04A00E829DA /* ConfirmFileImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE552A76A04900E829DA /* ConfirmFileImport.swift */; };
+		CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		CEA3EE502A71676D00E829DA /* TicketPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketPurchase.swift; sourceTree = "<group>"; };
 		CEA3EE532A72E2CA00E829DA /* ConfirmEraseItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmEraseItems.swift; sourceTree = "<group>"; };
 		CEA3EE552A76A04900E829DA /* ConfirmFileImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmFileImport.swift; sourceTree = "<group>"; };
+		CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDetents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */,
 				CEA3EE322A702FC400E829DA /* ContentView.swift */,
 				CE3ABDDA2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift */,
+				CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */,
 				CE24FD662A857505005C9FB6 /* Assets.xcassets */,
 				CE3ABDD92A8E64240065CE5D /* Popover */,
 				CE24FD702A8691F4005C9FB6 /* Sheets */,
@@ -261,6 +264,7 @@
 				CE24FD6F2A868EA3005C9FB6 /* FullScreenCoverItemOnDismissContent.swift in Sources */,
 				CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */,
 				CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */,
+				CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */,
 				CEA3EE4F2A7161DA00E829DA /* SaveButton.swift in Sources */,
 				CEA3EE562A76A04A00E829DA /* ConfirmFileImport.swift in Sources */,
 				CE24FD652A857138005C9FB6 /* ShowLicenseAgreement.swift in Sources */,

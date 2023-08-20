@@ -20,7 +20,6 @@ struct PresentationInteractiveDismiss: View {
                 .interactiveDismissDisabled(!areTermsAccepted)
         }
     }
-
 }
 
 struct TermsOfService: View {

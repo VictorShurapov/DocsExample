@@ -38,6 +38,7 @@ struct ContentView: View {
             }
             Section("Sheet and popover configuration") {
                 NavigationLink("Interactive Dismiss Disabled", destination: PresentationInteractiveDismiss())
+                NavigationLink("Presentation Detents", destination: PresentationDetents())
             }
         }
     }
