@@ -29,6 +29,7 @@
 		CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE502A71676D00E829DA /* TicketPurchase.swift */; };
 		CEA3EE542A72E2CA00E829DA /* ConfirmEraseItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE532A72E2CA00E829DA /* ConfirmEraseItems.swift */; };
 		CEA3EE562A76A04A00E829DA /* ConfirmFileImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE552A76A04900E829DA /* ConfirmFileImport.swift */; };
+		CEB38C232A9397EC00F2C118 /* PresentationBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C222A9397EC00F2C118 /* PresentationBackground.swift */; };
 		CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		CEA3EE502A71676D00E829DA /* TicketPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketPurchase.swift; sourceTree = "<group>"; };
 		CEA3EE532A72E2CA00E829DA /* ConfirmEraseItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmEraseItems.swift; sourceTree = "<group>"; };
 		CEA3EE552A76A04900E829DA /* ConfirmFileImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmFileImport.swift; sourceTree = "<group>"; };
+		CEB38C222A9397EC00F2C118 /* PresentationBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationBackground.swift; sourceTree = "<group>"; };
 		CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDetents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +133,7 @@
 				CEA3EE322A702FC400E829DA /* ContentView.swift */,
 				CE3ABDDA2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift */,
 				CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */,
+				CEB38C222A9397EC00F2C118 /* PresentationBackground.swift */,
 				CE24FD662A857505005C9FB6 /* Assets.xcassets */,
 				CE3ABDD92A8E64240065CE5D /* Popover */,
 				CE24FD702A8691F4005C9FB6 /* Sheets */,
@@ -255,6 +258,7 @@
 				CEA3EE4C2A71600C00E829DA /* SaveDetails.swift in Sources */,
 				CE24FD6D2A86863C005C9FB6 /* FullScreenCover.swift in Sources */,
 				CE10886E2A7BE45600689958 /* ConfirmEraseItemsMessage.swift in Sources */,
+				CEB38C232A9397EC00F2C118 /* PresentationBackground.swift in Sources */,
 				CEA3EE542A72E2CA00E829DA /* ConfirmEraseItems.swift in Sources */,
 				CE24FD692A858AE2005C9FB6 /* ShowPartDetail.swift in Sources */,
 				CE3ABDD82A8E628D0065CE5D /* PopoverExampleItem.swift in Sources */,
