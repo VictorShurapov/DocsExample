@@ -30,6 +30,7 @@
 		CEA3EE542A72E2CA00E829DA /* ConfirmEraseItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE532A72E2CA00E829DA /* ConfirmEraseItems.swift */; };
 		CEA3EE562A76A04A00E829DA /* ConfirmFileImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE552A76A04900E829DA /* ConfirmFileImport.swift */; };
 		CEB38C232A9397EC00F2C118 /* PresentationBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C222A9397EC00F2C118 /* PresentationBackground.swift */; };
+		CEB38C252A951EA500F2C118 /* PresentationBackgroundInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C242A951EA500F2C118 /* PresentationBackgroundInteraction.swift */; };
 		CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		CEA3EE532A72E2CA00E829DA /* ConfirmEraseItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmEraseItems.swift; sourceTree = "<group>"; };
 		CEA3EE552A76A04900E829DA /* ConfirmFileImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmFileImport.swift; sourceTree = "<group>"; };
 		CEB38C222A9397EC00F2C118 /* PresentationBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationBackground.swift; sourceTree = "<group>"; };
+		CEB38C242A951EA500F2C118 /* PresentationBackgroundInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationBackgroundInteraction.swift; sourceTree = "<group>"; };
 		CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDetents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 				CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */,
 				CEA3EE322A702FC400E829DA /* ContentView.swift */,
 				CE3ABDDA2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift */,
+				CEB38C242A951EA500F2C118 /* PresentationBackgroundInteraction.swift */,
 				CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */,
 				CEB38C222A9397EC00F2C118 /* PresentationBackground.swift */,
 				CE24FD662A857505005C9FB6 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 				CEA3EE462A71561300E829DA /* AlertMessageView.swift in Sources */,
 				CEA3EE332A702FC400E829DA /* ContentView.swift in Sources */,
 				CEA3EE432A7036BD00E829DA /* AlertLocalizedError.swift in Sources */,
+				CEB38C252A951EA500F2C118 /* PresentationBackgroundInteraction.swift in Sources */,
 				CE24FD6F2A868EA3005C9FB6 /* FullScreenCoverItemOnDismissContent.swift in Sources */,
 				CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */,
 				CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */,

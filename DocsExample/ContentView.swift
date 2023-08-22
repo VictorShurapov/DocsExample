@@ -41,6 +41,7 @@ struct ContentView: View {
                     NavigationLink("Interactive Dismiss Disabled", destination: PresentationInteractiveDismiss())
                     NavigationLink("Presentation Detents", destination: PresentationDetents())
                     NavigationLink("Presentation Background", destination: PresentationBackground())
+                    NavigationLink("Presentation Background Interaction", destination: PresentationBackgroundInteraction())                    
                 }
             }
         }
