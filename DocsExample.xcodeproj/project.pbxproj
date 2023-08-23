@@ -32,6 +32,7 @@
 		CEB38C232A9397EC00F2C118 /* PresentationBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C222A9397EC00F2C118 /* PresentationBackground.swift */; };
 		CEB38C252A951EA500F2C118 /* PresentationBackgroundInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C242A951EA500F2C118 /* PresentationBackgroundInteraction.swift */; };
 		CEB38C272A9524D800F2C118 /* PresentationCompactAdaptation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C262A9524D800F2C118 /* PresentationCompactAdaptation.swift */; };
+		CEB38C2A2A964E4600F2C118 /* PresentationContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */; };
 		CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		CEB38C222A9397EC00F2C118 /* PresentationBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationBackground.swift; sourceTree = "<group>"; };
 		CEB38C242A951EA500F2C118 /* PresentationBackgroundInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationBackgroundInteraction.swift; sourceTree = "<group>"; };
 		CEB38C262A9524D800F2C118 /* PresentationCompactAdaptation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationCompactAdaptation.swift; sourceTree = "<group>"; };
+		CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationContentInteraction.swift; sourceTree = "<group>"; };
 		CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDetents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,6 +195,7 @@
 				CEB38C222A9397EC00F2C118 /* PresentationBackground.swift */,
 				CEB38C242A951EA500F2C118 /* PresentationBackgroundInteraction.swift */,
 				CEB38C262A9524D800F2C118 /* PresentationCompactAdaptation.swift */,
+				CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */,
 			);
 			path = "Sheet and popover configuration";
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				CE10886E2A7BE45600689958 /* ConfirmEraseItemsMessage.swift in Sources */,
 				CEB38C232A9397EC00F2C118 /* PresentationBackground.swift in Sources */,
 				CEB38C272A9524D800F2C118 /* PresentationCompactAdaptation.swift in Sources */,
+				CEB38C2A2A964E4600F2C118 /* PresentationContentInteraction.swift in Sources */,
 				CEA3EE542A72E2CA00E829DA /* ConfirmEraseItems.swift in Sources */,
 				CE24FD692A858AE2005C9FB6 /* ShowPartDetail.swift in Sources */,
 				CE3ABDD82A8E628D0065CE5D /* PopoverExampleItem.swift in Sources */,

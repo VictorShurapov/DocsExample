@@ -43,6 +43,7 @@ struct ContentView: View {
                     NavigationLink("Presentation Background", destination: PresentationBackground())
                     NavigationLink("Presentation Background Interaction", destination: PresentationBackgroundInteraction())
                     NavigationLink("Presentation Compact Adaptation", destination: PresentationCompactAdaptation())
+                    NavigationLink("Presentation Content Interaction", destination: PresentationContentInteraction())
                 }
             }
         }
