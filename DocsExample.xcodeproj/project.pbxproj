@@ -33,6 +33,7 @@
 		CEB38C252A951EA500F2C118 /* PresentationBackgroundInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C242A951EA500F2C118 /* PresentationBackgroundInteraction.swift */; };
 		CEB38C272A9524D800F2C118 /* PresentationCompactAdaptation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C262A9524D800F2C118 /* PresentationCompactAdaptation.swift */; };
 		CEB38C2A2A964E4600F2C118 /* PresentationContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */; };
+		CEB38C2C2A96659600F2C118 /* PresentationCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */; };
 		CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		CEB38C242A951EA500F2C118 /* PresentationBackgroundInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationBackgroundInteraction.swift; sourceTree = "<group>"; };
 		CEB38C262A9524D800F2C118 /* PresentationCompactAdaptation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationCompactAdaptation.swift; sourceTree = "<group>"; };
 		CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationContentInteraction.swift; sourceTree = "<group>"; };
+		CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationCornerRadius.swift; sourceTree = "<group>"; };
 		CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDetents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,6 +198,7 @@
 				CEB38C242A951EA500F2C118 /* PresentationBackgroundInteraction.swift */,
 				CEB38C262A9524D800F2C118 /* PresentationCompactAdaptation.swift */,
 				CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */,
+				CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */,
 			);
 			path = "Sheet and popover configuration";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				CEA3EE4A2A715F8600E829DA /* AlertDataModel.swift in Sources */,
 				CE3ABDDB2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift in Sources */,
+				CEB38C2C2A96659600F2C118 /* PresentationCornerRadius.swift in Sources */,
 				CEA3EE4C2A71600C00E829DA /* SaveDetails.swift in Sources */,
 				CE24FD6D2A86863C005C9FB6 /* FullScreenCover.swift in Sources */,
 				CE10886E2A7BE45600689958 /* ConfirmEraseItemsMessage.swift in Sources */,
