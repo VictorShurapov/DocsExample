@@ -46,6 +46,9 @@ struct ContentView: View {
                     NavigationLink("Presentation Content Interaction", destination: PresentationContentInteraction())
                     NavigationLink("Presentation Corner Radius", destination: PresentationCornerRadius())                    
                 }
+                Section("File Exporter") {
+                    NavigationLink("File Exporter", destination: ExportingExampleView())
+                }
             }
         }
     }
