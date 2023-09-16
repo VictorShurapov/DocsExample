@@ -8,18 +8,28 @@
 import SwiftUI
 
 struct ExportingExampleView: View {
-    @State private var exporting = false
-    @State private var document = TextDocument(text: "RTVSF👋")
+    @State private var showFileExporter = false
+    @State private var document = TextDocument(text: "Yarusy@👋")
     
     var body: some View {
         TextEditor(text: $document.text)
+            .navigationTitle("File Exporter")
+            .border(.red)
             .padding()
+            .border(.white)
+
+            .scrollContentBackground(.hidden)
+            .background(.indigo)
+        
             .toolbar {
-                Button("Export") {
-                    exporting = true
+                Button {
+                    showFileExporter = true
+                } label: {
+                    Label("Export text file",
+                          systemImage: "square.and.arrow.up")
                 }
                 .fileExporter(
-                    isPresented: $exporting,
+                    isPresented: $showFileExporter,
                     document: document,
                     contentType: .plainText
                 ) { result in

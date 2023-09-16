@@ -17,6 +17,7 @@
 		CE3ABDD62A8CE19F0065CE5D /* PopoverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABDD52A8CE19F0065CE5D /* PopoverExample.swift */; };
 		CE3ABDD82A8E628D0065CE5D /* PopoverExampleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABDD72A8E628D0065CE5D /* PopoverExampleItem.swift */; };
 		CE3ABDDB2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABDDA2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift */; };
+		CE57910D2AB59AF400571E6B /* ImportingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */; };
 		CE632E332A9905500042D9AD /* TextDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE632E322A9905500042D9AD /* TextDocument.swift */; };
 		CE84C9162AA221A50007AE8A /* ExportingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84C9152AA221A50007AE8A /* ExportingExampleView.swift */; };
 		CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */; };
@@ -36,6 +37,7 @@
 		CEB38C272A9524D800F2C118 /* PresentationCompactAdaptation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C262A9524D800F2C118 /* PresentationCompactAdaptation.swift */; };
 		CEB38C2A2A964E4600F2C118 /* PresentationContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */; };
 		CEB38C2C2A96659600F2C118 /* PresentationCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */; };
+		CEB397812AB0D1890026A5A0 /* PickTextFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB397802AB0D1890026A5A0 /* PickTextFileButton.swift */; };
 		CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,7 @@
 		CE3ABDD52A8CE19F0065CE5D /* PopoverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverExample.swift; sourceTree = "<group>"; };
 		CE3ABDD72A8E628D0065CE5D /* PopoverExampleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverExampleItem.swift; sourceTree = "<group>"; };
 		CE3ABDDA2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationInteractiveDismiss.swift; sourceTree = "<group>"; };
+		CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportingExampleView.swift; sourceTree = "<group>"; };
 		CE632E322A9905500042D9AD /* TextDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocument.swift; sourceTree = "<group>"; };
 		CE84C9152AA221A50007AE8A /* ExportingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportingExampleView.swift; sourceTree = "<group>"; };
 		CEA3EE2D2A702FC400E829DA /* DocsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +73,7 @@
 		CEB38C262A9524D800F2C118 /* PresentationCompactAdaptation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationCompactAdaptation.swift; sourceTree = "<group>"; };
 		CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationContentInteraction.swift; sourceTree = "<group>"; };
 		CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationCornerRadius.swift; sourceTree = "<group>"; };
+		CEB397802AB0D1890026A5A0 /* PickTextFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTextFileButton.swift; sourceTree = "<group>"; };
 		CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDetents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +149,8 @@
 				CEA3EE322A702FC400E829DA /* ContentView.swift */,
 				CE632E322A9905500042D9AD /* TextDocument.swift */,
 				CE84C9152AA221A50007AE8A /* ExportingExampleView.swift */,
+				CEB397802AB0D1890026A5A0 /* PickTextFileButton.swift */,
+				CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */,
 				CE24FD662A857505005C9FB6 /* Assets.xcassets */,
 				CEA3EE522A72E26C00E829DA /* Alerts */,
 				CE10886C2A7BE13300689958 /* ConfirmationDialog */,
@@ -280,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA3EE4A2A715F8600E829DA /* AlertDataModel.swift in Sources */,
+				CEB397812AB0D1890026A5A0 /* PickTextFileButton.swift in Sources */,
 				CE3ABDDB2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift in Sources */,
 				CEB38C2C2A96659600F2C118 /* PresentationCornerRadius.swift in Sources */,
 				CEA3EE4C2A71600C00E829DA /* SaveDetails.swift in Sources */,
@@ -299,6 +306,7 @@
 				CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */,
 				CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */,
 				CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */,
+				CE57910D2AB59AF400571E6B /* ImportingExampleView.swift in Sources */,
 				CE84C9162AA221A50007AE8A /* ExportingExampleView.swift in Sources */,
 				CE632E332A9905500042D9AD /* TextDocument.swift in Sources */,
 				CEA3EE4F2A7161DA00E829DA /* SaveButton.swift in Sources */,

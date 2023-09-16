@@ -14,10 +14,8 @@ struct ContentView: View {
                 Section("Alerts") {
                     NavigationLink("Alert with Error", destination: AlertWithErrorView())
                     NavigationLink("Alert with Error presenting data", destination: TicketPurchase())
-                        .navigationTitle("Docs Examples")
                     NavigationLink("Alert with message", destination: AlertMessageView())
                     NavigationLink("Alert with data", destination: SaveButton())
-                        .navigationTitle("Docs Examples")
                 }
                 Section("Confirmations") {
                     NavigationLink("Confirmation", destination: ConfirmEraseItems())
@@ -48,8 +46,11 @@ struct ContentView: View {
                 }
                 Section("File Exporter") {
                     NavigationLink("File Exporter", destination: ExportingExampleView())
+                    NavigationLink("File Importer", destination: ImportingExampleView())
+
                 }
             }
+            .navigationTitle("Doc Examples")
         }
     }
 }
