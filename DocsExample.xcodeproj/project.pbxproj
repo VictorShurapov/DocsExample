@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0427AB2AB8611A009D7CEE /* FileMoverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0427AA2AB8611A009D7CEE /* FileMoverExample.swift */; };
 		CE10886E2A7BE45600689958 /* ConfirmEraseItemsMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10886D2A7BE45600689958 /* ConfirmEraseItemsMessage.swift */; };
 		CE1088702A7C05B500689958 /* ConfirmFileImportMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10886F2A7C05B500689958 /* ConfirmFileImportMessage.swift */; };
 		CE24FD652A857138005C9FB6 /* ShowLicenseAgreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24FD642A857138005C9FB6 /* ShowLicenseAgreement.swift */; };
@@ -19,6 +20,8 @@
 		CE3ABDDB2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABDDA2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift */; };
 		CE57910D2AB59AF400571E6B /* ImportingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */; };
 		CE632E332A9905500042D9AD /* TextDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE632E322A9905500042D9AD /* TextDocument.swift */; };
+		CE6D2AB12AC5CC3500238065 /* ImportTextFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D2AB02AC5CC3500238065 /* ImportTextFileButton.swift */; };
+		CE6D2AB32AC5CD9300238065 /* MoveTextFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D2AB22AC5CD9300238065 /* MoveTextFileButton.swift */; };
 		CE84C9162AA221A50007AE8A /* ExportingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84C9152AA221A50007AE8A /* ExportingExampleView.swift */; };
 		CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */; };
 		CEA3EE332A702FC400E829DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE322A702FC400E829DA /* ContentView.swift */; };
@@ -42,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0427AA2AB8611A009D7CEE /* FileMoverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMoverExample.swift; sourceTree = "<group>"; };
 		CE10886D2A7BE45600689958 /* ConfirmEraseItemsMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmEraseItemsMessage.swift; sourceTree = "<group>"; };
 		CE10886F2A7C05B500689958 /* ConfirmFileImportMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmFileImportMessage.swift; sourceTree = "<group>"; };
 		CE24FD642A857138005C9FB6 /* ShowLicenseAgreement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowLicenseAgreement.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		CE3ABDDA2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationInteractiveDismiss.swift; sourceTree = "<group>"; };
 		CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportingExampleView.swift; sourceTree = "<group>"; };
 		CE632E322A9905500042D9AD /* TextDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocument.swift; sourceTree = "<group>"; };
+		CE6D2AB02AC5CC3500238065 /* ImportTextFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportTextFileButton.swift; sourceTree = "<group>"; };
+		CE6D2AB22AC5CD9300238065 /* MoveTextFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTextFileButton.swift; sourceTree = "<group>"; };
 		CE84C9152AA221A50007AE8A /* ExportingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportingExampleView.swift; sourceTree = "<group>"; };
 		CEA3EE2D2A702FC400E829DA /* DocsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsExampleApp.swift; sourceTree = "<group>"; };
@@ -126,6 +132,44 @@
 			path = Popover;
 			sourceTree = "<group>";
 		};
+		CE6D2AAC2AC5CB2900238065 /* FileOperations */ = {
+			isa = PBXGroup;
+			children = (
+				CE632E322A9905500042D9AD /* TextDocument.swift */,
+				CE6D2AAE2AC5CB7000238065 /* FileExporter */,
+				CE6D2AAD2AC5CB5400238065 /* FileImporter */,
+				CE6D2AAF2AC5CB8900238065 /* FileMover */,
+			);
+			path = FileOperations;
+			sourceTree = "<group>";
+		};
+		CE6D2AAD2AC5CB5400238065 /* FileImporter */ = {
+			isa = PBXGroup;
+			children = (
+				CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */,
+				CEB397802AB0D1890026A5A0 /* PickTextFileButton.swift */,
+			);
+			path = FileImporter;
+			sourceTree = "<group>";
+		};
+		CE6D2AAE2AC5CB7000238065 /* FileExporter */ = {
+			isa = PBXGroup;
+			children = (
+				CE84C9152AA221A50007AE8A /* ExportingExampleView.swift */,
+			);
+			path = FileExporter;
+			sourceTree = "<group>";
+		};
+		CE6D2AAF2AC5CB8900238065 /* FileMover */ = {
+			isa = PBXGroup;
+			children = (
+				CE0427AA2AB8611A009D7CEE /* FileMoverExample.swift */,
+				CE6D2AB02AC5CC3500238065 /* ImportTextFileButton.swift */,
+				CE6D2AB22AC5CD9300238065 /* MoveTextFileButton.swift */,
+			);
+			path = FileMover;
+			sourceTree = "<group>";
+		};
 		CEA3EE242A702FC400E829DA = {
 			isa = PBXGroup;
 			children = (
@@ -147,11 +191,7 @@
 			children = (
 				CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */,
 				CEA3EE322A702FC400E829DA /* ContentView.swift */,
-				CE632E322A9905500042D9AD /* TextDocument.swift */,
-				CE84C9152AA221A50007AE8A /* ExportingExampleView.swift */,
-				CEB397802AB0D1890026A5A0 /* PickTextFileButton.swift */,
-				CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */,
-				CE24FD662A857505005C9FB6 /* Assets.xcassets */,
+				CE6D2AAC2AC5CB2900238065 /* FileOperations */,
 				CEA3EE522A72E26C00E829DA /* Alerts */,
 				CE10886C2A7BE13300689958 /* ConfirmationDialog */,
 				CE24FD702A8691F4005C9FB6 /* Sheets */,
@@ -159,6 +199,7 @@
 				CE3ABDD92A8E64240065CE5D /* Popover */,
 				CEB38C282A952E9A00F2C118 /* Sheet and popover configuration */,
 				CEA3EE362A702FC700E829DA /* Preview Content */,
+				CE24FD662A857505005C9FB6 /* Assets.xcassets */,
 			);
 			path = DocsExample;
 			sourceTree = "<group>";
@@ -297,10 +338,12 @@
 				CEB38C2A2A964E4600F2C118 /* PresentationContentInteraction.swift in Sources */,
 				CEA3EE542A72E2CA00E829DA /* ConfirmEraseItems.swift in Sources */,
 				CE24FD692A858AE2005C9FB6 /* ShowPartDetail.swift in Sources */,
+				CE0427AB2AB8611A009D7CEE /* FileMoverExample.swift in Sources */,
 				CE3ABDD82A8E628D0065CE5D /* PopoverExampleItem.swift in Sources */,
 				CEA3EE462A71561300E829DA /* AlertMessageView.swift in Sources */,
 				CEA3EE332A702FC400E829DA /* ContentView.swift in Sources */,
 				CEA3EE432A7036BD00E829DA /* AlertLocalizedError.swift in Sources */,
+				CE6D2AB12AC5CC3500238065 /* ImportTextFileButton.swift in Sources */,
 				CEB38C252A951EA500F2C118 /* PresentationBackgroundInteraction.swift in Sources */,
 				CE24FD6F2A868EA3005C9FB6 /* FullScreenCoverItemOnDismissContent.swift in Sources */,
 				CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */,
@@ -311,6 +354,7 @@
 				CE632E332A9905500042D9AD /* TextDocument.swift in Sources */,
 				CEA3EE4F2A7161DA00E829DA /* SaveButton.swift in Sources */,
 				CEA3EE562A76A04A00E829DA /* ConfirmFileImport.swift in Sources */,
+				CE6D2AB32AC5CD9300238065 /* MoveTextFileButton.swift in Sources */,
 				CE24FD652A857138005C9FB6 /* ShowLicenseAgreement.swift in Sources */,
 				CE1088702A7C05B500689958 /* ConfirmFileImportMessage.swift in Sources */,
 				CE3ABDD62A8CE19F0065CE5D /* PopoverExample.swift in Sources */,

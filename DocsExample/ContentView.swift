@@ -47,7 +47,7 @@ struct ContentView: View {
                 Section("File Exporter") {
                     NavigationLink("File Exporter", destination: ExportingExampleView())
                     NavigationLink("File Importer", destination: ImportingExampleView())
-
+                    NavigationLink("File Mover", destination: FileMoverExample())
                 }
             }
             .navigationTitle("Doc Examples")
