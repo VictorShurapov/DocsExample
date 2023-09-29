@@ -22,6 +22,15 @@ struct PickTextFileButton: View {
                   systemImage: "square.and.arrow.down")
         }
         .fileImporter(isPresented: $showFileImporter, allowedContentTypes: [.plainText]) {
+            // Returns the success value as a throwing expression.
+            //            { result in
+            //                do {
+            //                    let fileURL = try result.get()
+            //                    document = TextFile(fileURL: fileURL)
+            //                } catch {
+            //                    // Handle failure
+            //                }
+            //            }
             let result = $0.flatMap { url in
                 read(from: url)
             }
