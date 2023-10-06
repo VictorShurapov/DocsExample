@@ -42,13 +42,14 @@ struct ContentView: View {
                     NavigationLink("Presentation Background Interaction", destination: PresentationBackgroundInteraction())
                     NavigationLink("Presentation Compact Adaptation", destination: PresentationCompactAdaptation())
                     NavigationLink("Presentation Content Interaction", destination: PresentationContentInteraction())
-                    NavigationLink("Presentation Corner Radius", destination: PresentationCornerRadius())                    
+                    NavigationLink("Presentation Corner Radius", destination: PresentationCornerRadius())
                 }
-                Section("File Exporter") {
+                Section("File Exporter/Importer/Mover") {
                     NavigationLink("File Exporter", destination: ExportingExampleView())
                     NavigationLink("File Importer", destination: ImportingExampleView())
                     NavigationLink("File Mover", destination: FileMoverExample())
                 }
+                NavigationLink("Inspector", destination: InspectorExample())
             }
             .navigationTitle("Doc Examples")
         }
@@ -60,5 +61,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-
