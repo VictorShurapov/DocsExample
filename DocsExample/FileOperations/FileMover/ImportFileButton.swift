@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct ImportTextFileButton: View {
+struct ImportFileButton: View {
     @State private var showFileImporter = false
     @State private var error: Error?
-    var onTextFilePicked: (URL) -> Void
+    var onTextFilePicked: ([URL]) -> Void
     var onCancellation: (() -> Void)?
 
     
@@ -21,20 +21,20 @@ struct ImportTextFileButton: View {
             Label("Import text file",
                   systemImage: "square.and.arrow.down")
         }
-        .fileImporter(isPresented: $showFileImporter, allowedContentTypes: [.plainText]) { result in
+        .fileImporter(isPresented: $showFileImporter, allowedContentTypes: [.plainText, .image], allowsMultipleSelection: true, onCompletion: { result in
             switch result {
-            case .success(let url):
-                onTextFilePicked(url)
+            case .success(let urlArray):
+                onTextFilePicked(urlArray)
                 onCancellation?()
             case .failure(let error):
                 self.error = error
             }
-        }
+        })
     }
 }
 
 struct ImportTextFileButton_Previews: PreviewProvider {
     static var previews: some View {
-        ImportTextFileButton(onTextFilePicked: { _ in } )
+        ImportFileButton(onTextFilePicked: { _ in } )
     }
 }
