@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import FamilyControls
+import MusicKit
 
 struct ContentView: View {
     var body: some View {
@@ -49,7 +51,9 @@ struct ContentView: View {
                     NavigationLink("File Importer", destination: ImportingExampleView())
                     NavigationLink("File Mover", destination: FileMoverExample())
                 }
-                NavigationLink("Inspector", destination: InspectorExample())
+                Section("PhotoKit") {
+                    NavigationLink("Photo Picker", destination: PhotoPickerExample())
+                }
             }
             .navigationTitle("Doc Examples")
         }
@@ -61,3 +65,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
