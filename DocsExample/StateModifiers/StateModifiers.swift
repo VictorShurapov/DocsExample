@@ -13,9 +13,10 @@ struct StateModifiers: View {
             List {
                 Section("Identity") {
                     NavigationLink("Flavor Picker", destination: FlavorPicker())
+                    NavigationLink("Dog Profile", destination: DogProfileView())                    
                 }
             }
         }
-        .navigationTitle("State modifiers")
+        .navigationTitle("View modifiers")
     }
 }

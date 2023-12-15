@@ -22,6 +22,7 @@
 		CE3EB8D52AD0B89D005F4D49 /* InspectorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB8D42AD0B89D005F4D49 /* InspectorExample.swift */; };
 		CE57910D2AB59AF400571E6B /* ImportingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */; };
 		CE632E332A9905500042D9AD /* TextDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE632E322A9905500042D9AD /* TextDocument.swift */; };
+		CE68C9282B0801B20043A6F0 /* DogProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68C9272B0801B20043A6F0 /* DogProfileView.swift */; };
 		CE6D2AB12AC5CC3500238065 /* ImportFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D2AB02AC5CC3500238065 /* ImportFileButton.swift */; };
 		CE6D2AB32AC5CD9300238065 /* MoveTextFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D2AB22AC5CD9300238065 /* MoveTextFileButton.swift */; };
 		CE84C9162AA221A50007AE8A /* ExportingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84C9152AA221A50007AE8A /* ExportingExampleView.swift */; };
@@ -44,6 +45,9 @@
 		CEB38C2A2A964E4600F2C118 /* PresentationContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */; };
 		CEB38C2C2A96659600F2C118 /* PresentationCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */; };
 		CEB397812AB0D1890026A5A0 /* PickTextFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB397802AB0D1890026A5A0 /* PickTextFileButton.swift */; };
+		CECB529D2B227D5200CE3A45 /* PresentationModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB529C2B227D5200CE3A45 /* PresentationModifiers.swift */; };
+		CECB529F2B227DAA00CE3A45 /* StateModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB529E2B227DAA00CE3A45 /* StateModifiers.swift */; };
+		CECB52A12B227E9500CE3A45 /* FlavorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB52A02B227E9500CE3A45 /* FlavorPicker.swift */; };
 		CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +67,7 @@
 		CE3EB8D42AD0B89D005F4D49 /* InspectorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorExample.swift; sourceTree = "<group>"; };
 		CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportingExampleView.swift; sourceTree = "<group>"; };
 		CE632E322A9905500042D9AD /* TextDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocument.swift; sourceTree = "<group>"; };
+		CE68C9272B0801B20043A6F0 /* DogProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogProfileView.swift; sourceTree = "<group>"; };
 		CE6D2AB02AC5CC3500238065 /* ImportFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportFileButton.swift; sourceTree = "<group>"; };
 		CE6D2AB22AC5CD9300238065 /* MoveTextFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTextFileButton.swift; sourceTree = "<group>"; };
 		CE84C9152AA221A50007AE8A /* ExportingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportingExampleView.swift; sourceTree = "<group>"; };
@@ -86,6 +91,9 @@
 		CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationContentInteraction.swift; sourceTree = "<group>"; };
 		CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationCornerRadius.swift; sourceTree = "<group>"; };
 		CEB397802AB0D1890026A5A0 /* PickTextFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTextFileButton.swift; sourceTree = "<group>"; };
+		CECB529C2B227D5200CE3A45 /* PresentationModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationModifiers.swift; sourceTree = "<group>"; };
+		CECB529E2B227DAA00CE3A45 /* StateModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateModifiers.swift; sourceTree = "<group>"; };
+		CECB52A02B227E9500CE3A45 /* FlavorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorPicker.swift; sourceTree = "<group>"; };
 		CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDetents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,6 +185,33 @@
 			path = FileMover;
 			sourceTree = "<group>";
 		};
+		CE96F2E42B2275AB00C6125C /* StateModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CECB529E2B227DAA00CE3A45 /* StateModifiers.swift */,
+				CECB52A02B227E9500CE3A45 /* FlavorPicker.swift */,
+				CE68C9272B0801B20043A6F0 /* DogProfileView.swift */,
+			);
+			path = StateModifiers;
+			sourceTree = "<group>";
+		};
+		CE96F2E52B2275DD00C6125C /* PresentationModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CECB529C2B227D5200CE3A45 /* PresentationModifiers.swift */,
+				CE93DEC82AFAF1D600C836C2 /* PhotoPickerExample.swift */,
+				CE3EB8D42AD0B89D005F4D49 /* InspectorExample.swift */,
+				CE6D2AAC2AC5CB2900238065 /* FileOperations */,
+				CEA3EE522A72E26C00E829DA /* Alerts */,
+				CE10886C2A7BE13300689958 /* ConfirmationDialog */,
+				CE24FD702A8691F4005C9FB6 /* Sheets */,
+				CE24FD712A869207005C9FB6 /* FullScreenCover */,
+				CE3ABDD92A8E64240065CE5D /* Popover */,
+				CEB38C282A952E9A00F2C118 /* Sheet and popover configuration */,
+			);
+			path = PresentationModifiers;
+			sourceTree = "<group>";
+		};
 		CEA3EE242A702FC400E829DA = {
 			isa = PBXGroup;
 			children = (
@@ -198,15 +233,8 @@
 			children = (
 				CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */,
 				CEA3EE322A702FC400E829DA /* ContentView.swift */,
-				CE3EB8D42AD0B89D005F4D49 /* InspectorExample.swift */,
-				CE93DEC82AFAF1D600C836C2 /* PhotoPickerExample.swift */,
-				CE6D2AAC2AC5CB2900238065 /* FileOperations */,
-				CEA3EE522A72E26C00E829DA /* Alerts */,
-				CE10886C2A7BE13300689958 /* ConfirmationDialog */,
-				CE24FD702A8691F4005C9FB6 /* Sheets */,
-				CE24FD712A869207005C9FB6 /* FullScreenCover */,
-				CE3ABDD92A8E64240065CE5D /* Popover */,
-				CEB38C282A952E9A00F2C118 /* Sheet and popover configuration */,
+				CE96F2E42B2275AB00C6125C /* StateModifiers */,
+				CE96F2E52B2275DD00C6125C /* PresentationModifiers */,
 				CEA3EE362A702FC700E829DA /* Preview Content */,
 				CE24FD662A857505005C9FB6 /* Assets.xcassets */,
 			);
@@ -293,7 +321,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					CEA3EE2C2A702FC400E829DA = {
 						CreatedOnToolsVersion = 14.3;
@@ -338,9 +366,12 @@
 				CEA3EE4A2A715F8600E829DA /* AlertDataModel.swift in Sources */,
 				CEB397812AB0D1890026A5A0 /* PickTextFileButton.swift in Sources */,
 				CE3ABDDB2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift in Sources */,
+				CECB52A12B227E9500CE3A45 /* FlavorPicker.swift in Sources */,
 				CE93DEC92AFAF1D600C836C2 /* PhotoPickerExample.swift in Sources */,
+				CECB529D2B227D5200CE3A45 /* PresentationModifiers.swift in Sources */,
 				CEB38C2C2A96659600F2C118 /* PresentationCornerRadius.swift in Sources */,
 				CEA3EE4C2A71600C00E829DA /* SaveDetails.swift in Sources */,
+				CECB529F2B227DAA00CE3A45 /* StateModifiers.swift in Sources */,
 				CE24FD6D2A86863C005C9FB6 /* FullScreenCover.swift in Sources */,
 				CE10886E2A7BE45600689958 /* ConfirmEraseItemsMessage.swift in Sources */,
 				CEB38C232A9397EC00F2C118 /* PresentationBackground.swift in Sources */,
@@ -349,6 +380,7 @@
 				CEA3EE542A72E2CA00E829DA /* ConfirmEraseItems.swift in Sources */,
 				CE24FD692A858AE2005C9FB6 /* ShowPartDetail.swift in Sources */,
 				CE0427AB2AB8611A009D7CEE /* FileMoverExample.swift in Sources */,
+				CE68C9282B0801B20043A6F0 /* DogProfileView.swift in Sources */,
 				CE3ABDD82A8E628D0065CE5D /* PopoverExampleItem.swift in Sources */,
 				CEA3EE462A71561300E829DA /* AlertMessageView.swift in Sources */,
 				CEA3EE332A702FC400E829DA /* ContentView.swift in Sources */,
@@ -381,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -413,6 +446,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -441,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -473,6 +508,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

@@ -15,10 +15,6 @@ struct Dog: Identifiable, Hashable {
 }
 
 struct DogProfileView: View, Hashable {
-    static func == (lhs: DogProfileView, rhs: DogProfileView) -> Bool {
-        lhs.rescueDog == rhs.rescueDog
-    }
-    
     var rescueDog: Dog = Dog(
         name: "Pretzel",
         breed: "Ruby Spaniel",
