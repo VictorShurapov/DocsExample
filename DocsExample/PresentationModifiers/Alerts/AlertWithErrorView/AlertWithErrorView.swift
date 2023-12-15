@@ -28,6 +28,7 @@ struct AlertWithErrorForm: View {
 
 // MARK: - AlertWithErrorView
 struct AlertWithErrorView: View {
+    
     @State private var showAlert = false
     @State private var error: AlertError? = nil
     
