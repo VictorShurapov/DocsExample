@@ -15,6 +15,7 @@ struct StateModifiers: View {
                     NavigationLink("Flavor Picker", destination: FlavorPicker())
                     NavigationLink("Dog Profile", destination: DogProfileView())
                     NavigationLink("Environment Value", destination: EnvironmentValueExample())
+                    NavigationLink("Transform environment", destination: TransformEnvironmentExample())
                 }
             }
         }
