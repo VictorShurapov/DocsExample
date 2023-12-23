@@ -14,11 +14,13 @@ struct StateModifiers: View {
                 Section("Identity") {
                     NavigationLink("Flavor Picker", destination: FlavorPicker())
                     NavigationLink("Dog Profile", destination: DogProfileView())
+                }
+                Section("Environment values") {
                     NavigationLink("Environment Value", destination: EnvironmentValueExample())
                     NavigationLink("Transform environment", destination: TransformEnvironmentExample())
                 }
             }
+            .navigationTitle("View modifiers")
         }
-        .navigationTitle("View modifiers")
     }
 }

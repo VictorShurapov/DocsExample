@@ -32,20 +32,13 @@ struct PresentationBackground: View {
                 .sheet(isPresented: $showSheetCustomView) {
                     Text("Custom view background")
                         .presentationBackground {
-                            TestView()
+                            ZStack {
+                                Rectangle().fill(.red)
+                                Rectangle().fill(.ultraThinMaterial)
+                            }
                         }
                 }
             }
-        }
-    }
-}
-
-struct TestView: View {
-    
-    var body: some View {
-        ZStack {
-            Rectangle().fill(.red)
-            Rectangle().fill(.ultraThinMaterial)
         }
     }
 }
