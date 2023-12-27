@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-
-
-
-
 struct PreferenceScrollView<Content: View>: View {
     let content: Content
     
