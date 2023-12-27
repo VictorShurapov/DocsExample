@@ -14,7 +14,7 @@ struct PreferenceKeyExample: View {
         VStack {
             Text("Nice & Happy")
                 .preference(key: ViktPreferenceKey.self, value: "Nice & Happy")
-            Text("Coding✨")
+            Text("Coding")
                 .preference(key: ViktPreferenceKey.self, value: "Coding")
             Divider()
             Text(preferenceValue)
