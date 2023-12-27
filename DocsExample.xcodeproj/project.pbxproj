@@ -29,6 +29,10 @@
 		CE93DEC92AFAF1D600C836C2 /* PhotoPickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93DEC82AFAF1D600C836C2 /* PhotoPickerExample.swift */; };
 		CE9B22782B3331420074A0A0 /* EnvironmentValueExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B22772B3331420074A0A0 /* EnvironmentValueExample.swift */; };
 		CE9B227A2B3339E90074A0A0 /* TransformEnvironmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B22792B3339E90074A0A0 /* TransformEnvironmentExample.swift */; };
+		CE9B227C2B3787270074A0A0 /* PreferenceScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B227B2B3787270074A0A0 /* PreferenceScrollViewExample.swift */; };
+		CE9B22802B38ABA10074A0A0 /* NavigationTitlePreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B227F2B38ABA10074A0A0 /* NavigationTitlePreference.swift */; };
+		CE9B22822B3B7A1A0074A0A0 /* PreferenceKeyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B22812B3B7A1A0074A0A0 /* PreferenceKeyExample.swift */; };
+		CE9B22842B3B7BF30074A0A0 /* ViktPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B22832B3B7BF30074A0A0 /* ViktPreferenceKey.swift */; };
 		CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */; };
 		CEA3EE332A702FC400E829DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE322A702FC400E829DA /* ContentView.swift */; };
 		CEA3EE382A702FC700E829DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA3EE372A702FC700E829DA /* Preview Assets.xcassets */; };
@@ -47,6 +51,8 @@
 		CEB38C2A2A964E4600F2C118 /* PresentationContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */; };
 		CEB38C2C2A96659600F2C118 /* PresentationCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */; };
 		CEB397812AB0D1890026A5A0 /* PickTextFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB397802AB0D1890026A5A0 /* PickTextFileButton.swift */; };
+		CEBFCCBF2B3C959F00D0C48E /* SizePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBFCCBE2B3C959F00D0C48E /* SizePreferenceKey.swift */; };
+		CEBFCCC12B3C95D000D0C48E /* SizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBFCCC02B3C95D000D0C48E /* SizeModifier.swift */; };
 		CECB529D2B227D5200CE3A45 /* PresentationModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB529C2B227D5200CE3A45 /* PresentationModifiers.swift */; };
 		CECB529F2B227DAA00CE3A45 /* StateModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB529E2B227DAA00CE3A45 /* StateModifiers.swift */; };
 		CECB52A12B227E9500CE3A45 /* FlavorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB52A02B227E9500CE3A45 /* FlavorPicker.swift */; };
@@ -76,6 +82,10 @@
 		CE93DEC82AFAF1D600C836C2 /* PhotoPickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerExample.swift; sourceTree = "<group>"; };
 		CE9B22772B3331420074A0A0 /* EnvironmentValueExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValueExample.swift; sourceTree = "<group>"; };
 		CE9B22792B3339E90074A0A0 /* TransformEnvironmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEnvironmentExample.swift; sourceTree = "<group>"; };
+		CE9B227B2B3787270074A0A0 /* PreferenceScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceScrollViewExample.swift; sourceTree = "<group>"; };
+		CE9B227F2B38ABA10074A0A0 /* NavigationTitlePreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitlePreference.swift; sourceTree = "<group>"; };
+		CE9B22812B3B7A1A0074A0A0 /* PreferenceKeyExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyExample.swift; sourceTree = "<group>"; };
+		CE9B22832B3B7BF30074A0A0 /* ViktPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViktPreferenceKey.swift; sourceTree = "<group>"; };
 		CEA3EE2D2A702FC400E829DA /* DocsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocsExampleApp.swift; sourceTree = "<group>"; };
 		CEA3EE322A702FC400E829DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +105,8 @@
 		CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationContentInteraction.swift; sourceTree = "<group>"; };
 		CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationCornerRadius.swift; sourceTree = "<group>"; };
 		CEB397802AB0D1890026A5A0 /* PickTextFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTextFileButton.swift; sourceTree = "<group>"; };
+		CEBFCCBE2B3C959F00D0C48E /* SizePreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizePreferenceKey.swift; sourceTree = "<group>"; };
+		CEBFCCC02B3C95D000D0C48E /* SizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeModifier.swift; sourceTree = "<group>"; };
 		CECB529C2B227D5200CE3A45 /* PresentationModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationModifiers.swift; sourceTree = "<group>"; };
 		CECB529E2B227DAA00CE3A45 /* StateModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateModifiers.swift; sourceTree = "<group>"; };
 		CECB52A02B227E9500CE3A45 /* FlavorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorPicker.swift; sourceTree = "<group>"; };
@@ -197,6 +209,8 @@
 				CE68C9272B0801B20043A6F0 /* DogProfileView.swift */,
 				CE9B22772B3331420074A0A0 /* EnvironmentValueExample.swift */,
 				CE9B22792B3339E90074A0A0 /* TransformEnvironmentExample.swift */,
+				CE9B22852B3B7C170074A0A0 /* PreferenceKeyExample */,
+				CEBFCCBD2B3C956E00D0C48E /* PreferenceScrollViewExample */,
 			);
 			path = StateModifiers;
 			sourceTree = "<group>";
@@ -216,6 +230,15 @@
 				CEB38C282A952E9A00F2C118 /* Sheet and popover configuration */,
 			);
 			path = PresentationModifiers;
+			sourceTree = "<group>";
+		};
+		CE9B22852B3B7C170074A0A0 /* PreferenceKeyExample */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B22812B3B7A1A0074A0A0 /* PreferenceKeyExample.swift */,
+				CE9B22832B3B7BF30074A0A0 /* ViktPreferenceKey.swift */,
+			);
+			path = PreferenceKeyExample;
 			sourceTree = "<group>";
 		};
 		CEA3EE242A702FC400E829DA = {
@@ -239,6 +262,7 @@
 			children = (
 				CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */,
 				CEA3EE322A702FC400E829DA /* ContentView.swift */,
+				CE9B227F2B38ABA10074A0A0 /* NavigationTitlePreference.swift */,
 				CE96F2E42B2275AB00C6125C /* StateModifiers */,
 				CE96F2E52B2275DD00C6125C /* PresentationModifiers */,
 				CEA3EE362A702FC700E829DA /* Preview Content */,
@@ -297,6 +321,16 @@
 				CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */,
 			);
 			path = "Sheet and popover configuration";
+			sourceTree = "<group>";
+		};
+		CEBFCCBD2B3C956E00D0C48E /* PreferenceScrollViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B227B2B3787270074A0A0 /* PreferenceScrollViewExample.swift */,
+				CEBFCCBE2B3C959F00D0C48E /* SizePreferenceKey.swift */,
+				CEBFCCC02B3C95D000D0C48E /* SizeModifier.swift */,
+			);
+			path = PreferenceScrollViewExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,9 +405,11 @@
 			files = (
 				CEA3EE4A2A715F8600E829DA /* AlertDataModel.swift in Sources */,
 				CEB397812AB0D1890026A5A0 /* PickTextFileButton.swift in Sources */,
+				CE9B22842B3B7BF30074A0A0 /* ViktPreferenceKey.swift in Sources */,
 				CE3ABDDB2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift in Sources */,
 				CECB52A12B227E9500CE3A45 /* FlavorPicker.swift in Sources */,
 				CE93DEC92AFAF1D600C836C2 /* PhotoPickerExample.swift in Sources */,
+				CEBFCCBF2B3C959F00D0C48E /* SizePreferenceKey.swift in Sources */,
 				CECB529D2B227D5200CE3A45 /* PresentationModifiers.swift in Sources */,
 				CEB38C2C2A96659600F2C118 /* PresentationCornerRadius.swift in Sources */,
 				CEA3EE4C2A71600C00E829DA /* SaveDetails.swift in Sources */,
@@ -388,9 +424,12 @@
 				CE24FD692A858AE2005C9FB6 /* ShowPartDetail.swift in Sources */,
 				CE0427AB2AB8611A009D7CEE /* FileMoverExample.swift in Sources */,
 				CE68C9282B0801B20043A6F0 /* DogProfileView.swift in Sources */,
+				CE9B22802B38ABA10074A0A0 /* NavigationTitlePreference.swift in Sources */,
 				CE3ABDD82A8E628D0065CE5D /* PopoverExampleItem.swift in Sources */,
+				CEBFCCC12B3C95D000D0C48E /* SizeModifier.swift in Sources */,
 				CEA3EE462A71561300E829DA /* AlertMessageView.swift in Sources */,
 				CEA3EE332A702FC400E829DA /* ContentView.swift in Sources */,
+				CE9B22822B3B7A1A0074A0A0 /* PreferenceKeyExample.swift in Sources */,
 				CEA3EE432A7036BD00E829DA /* AlertLocalizedError.swift in Sources */,
 				CE6D2AB12AC5CC3500238065 /* ImportFileButton.swift in Sources */,
 				CEB38C252A951EA500F2C118 /* PresentationBackgroundInteraction.swift in Sources */,
@@ -401,6 +440,7 @@
 				CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */,
 				CE57910D2AB59AF400571E6B /* ImportingExampleView.swift in Sources */,
 				CE9B227A2B3339E90074A0A0 /* TransformEnvironmentExample.swift in Sources */,
+				CE9B227C2B3787270074A0A0 /* PreferenceScrollViewExample.swift in Sources */,
 				CE84C9162AA221A50007AE8A /* ExportingExampleView.swift in Sources */,
 				CE632E332A9905500042D9AD /* TextDocument.swift in Sources */,
 				CEA3EE4F2A7161DA00E829DA /* SaveButton.swift in Sources */,
