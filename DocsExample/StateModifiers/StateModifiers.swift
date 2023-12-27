@@ -20,8 +20,6 @@ struct StateModifiers: View {
                     NavigationLink("Transform environment", destination: TransformEnvironmentExample())
                 }
                 Section("Preferences") {
-                    NavigationLink("Nav title pref Example", destination: NavigationTitlePreference())
-
                     NavigationLink("Preference Key Example", destination: PreferenceKeyExample())
                     NavigationLink("Preference Scroll View Example", destination: PreferenceScrollViewExample())
                 }

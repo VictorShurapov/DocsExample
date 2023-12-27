@@ -30,7 +30,6 @@
 		CE9B22782B3331420074A0A0 /* EnvironmentValueExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B22772B3331420074A0A0 /* EnvironmentValueExample.swift */; };
 		CE9B227A2B3339E90074A0A0 /* TransformEnvironmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B22792B3339E90074A0A0 /* TransformEnvironmentExample.swift */; };
 		CE9B227C2B3787270074A0A0 /* PreferenceScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B227B2B3787270074A0A0 /* PreferenceScrollViewExample.swift */; };
-		CE9B22802B38ABA10074A0A0 /* NavigationTitlePreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B227F2B38ABA10074A0A0 /* NavigationTitlePreference.swift */; };
 		CE9B22822B3B7A1A0074A0A0 /* PreferenceKeyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B22812B3B7A1A0074A0A0 /* PreferenceKeyExample.swift */; };
 		CE9B22842B3B7BF30074A0A0 /* ViktPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B22832B3B7BF30074A0A0 /* ViktPreferenceKey.swift */; };
 		CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */; };
@@ -83,7 +82,6 @@
 		CE9B22772B3331420074A0A0 /* EnvironmentValueExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValueExample.swift; sourceTree = "<group>"; };
 		CE9B22792B3339E90074A0A0 /* TransformEnvironmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformEnvironmentExample.swift; sourceTree = "<group>"; };
 		CE9B227B2B3787270074A0A0 /* PreferenceScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceScrollViewExample.swift; sourceTree = "<group>"; };
-		CE9B227F2B38ABA10074A0A0 /* NavigationTitlePreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitlePreference.swift; sourceTree = "<group>"; };
 		CE9B22812B3B7A1A0074A0A0 /* PreferenceKeyExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyExample.swift; sourceTree = "<group>"; };
 		CE9B22832B3B7BF30074A0A0 /* ViktPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViktPreferenceKey.swift; sourceTree = "<group>"; };
 		CEA3EE2D2A702FC400E829DA /* DocsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -262,7 +260,6 @@
 			children = (
 				CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */,
 				CEA3EE322A702FC400E829DA /* ContentView.swift */,
-				CE9B227F2B38ABA10074A0A0 /* NavigationTitlePreference.swift */,
 				CE96F2E42B2275AB00C6125C /* StateModifiers */,
 				CE96F2E52B2275DD00C6125C /* PresentationModifiers */,
 				CEA3EE362A702FC700E829DA /* Preview Content */,
@@ -424,7 +421,6 @@
 				CE24FD692A858AE2005C9FB6 /* ShowPartDetail.swift in Sources */,
 				CE0427AB2AB8611A009D7CEE /* FileMoverExample.swift in Sources */,
 				CE68C9282B0801B20043A6F0 /* DogProfileView.swift in Sources */,
-				CE9B22802B38ABA10074A0A0 /* NavigationTitlePreference.swift in Sources */,
 				CE3ABDD82A8E628D0065CE5D /* PopoverExampleItem.swift in Sources */,
 				CEBFCCC12B3C95D000D0C48E /* SizeModifier.swift in Sources */,
 				CEA3EE462A71561300E829DA /* AlertMessageView.swift in Sources */,
