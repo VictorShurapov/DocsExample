@@ -20,6 +20,8 @@ struct PreferenceKeyExample: View {
             Text(preferenceValue)
                 .font(.title3)
         }
+        .navigationTitle("Concatenating Preference Key")
+
         .onPreferenceChange(ViktPreferenceKey.self) { value in
             preferenceValue = value
         }

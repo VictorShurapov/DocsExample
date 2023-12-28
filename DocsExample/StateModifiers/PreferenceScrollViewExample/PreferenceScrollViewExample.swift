@@ -40,6 +40,7 @@ struct PreferenceScrollView<Content: View>: View {
                 .sizePreference()
                 .onPreferenceChange(SizePreferenceKey.self) { contentSize = $0 }
                 .gesture(isScrollable(geometry.size) ? dragGesture : nil)
+                .navigationTitle("Preference Scroll View")
         }
         .clipped()
     }

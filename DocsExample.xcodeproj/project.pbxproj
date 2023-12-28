@@ -22,6 +22,7 @@
 		CE3EB8D52AD0B89D005F4D49 /* InspectorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB8D42AD0B89D005F4D49 /* InspectorExample.swift */; };
 		CE57910D2AB59AF400571E6B /* ImportingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */; };
 		CE632E332A9905500042D9AD /* TextDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE632E322A9905500042D9AD /* TextDocument.swift */; };
+		CE6400432B3CC3DD001CF70A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6400422B3CC3DD001CF70A /* Test.swift */; };
 		CE68C9282B0801B20043A6F0 /* DogProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68C9272B0801B20043A6F0 /* DogProfileView.swift */; };
 		CE6D2AB12AC5CC3500238065 /* ImportFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D2AB02AC5CC3500238065 /* ImportFileButton.swift */; };
 		CE6D2AB32AC5CD9300238065 /* MoveTextFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D2AB22AC5CD9300238065 /* MoveTextFileButton.swift */; };
@@ -56,6 +57,9 @@
 		CECB529F2B227DAA00CE3A45 /* StateModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB529E2B227DAA00CE3A45 /* StateModifiers.swift */; };
 		CECB52A12B227E9500CE3A45 /* FlavorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB52A02B227E9500CE3A45 /* FlavorPicker.swift */; };
 		CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */; };
+		CEEF096E2B3E1499009E65E6 /* WidthPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF096D2B3E1499009E65E6 /* WidthPreferenceKey.swift */; };
+		CEEF09722B3E152F009E65E6 /* EqualWidthModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF09712B3E152F009E65E6 /* EqualWidthModifier.swift */; };
+		CEEF09752B3E1676009E65E6 /* WidthPreferenceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF09742B3E1676009E65E6 /* WidthPreferenceExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +78,7 @@
 		CE3EB8D42AD0B89D005F4D49 /* InspectorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorExample.swift; sourceTree = "<group>"; };
 		CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportingExampleView.swift; sourceTree = "<group>"; };
 		CE632E322A9905500042D9AD /* TextDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocument.swift; sourceTree = "<group>"; };
+		CE6400422B3CC3DD001CF70A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		CE68C9272B0801B20043A6F0 /* DogProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogProfileView.swift; sourceTree = "<group>"; };
 		CE6D2AB02AC5CC3500238065 /* ImportFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportFileButton.swift; sourceTree = "<group>"; };
 		CE6D2AB22AC5CD9300238065 /* MoveTextFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTextFileButton.swift; sourceTree = "<group>"; };
@@ -109,6 +114,9 @@
 		CECB529E2B227DAA00CE3A45 /* StateModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateModifiers.swift; sourceTree = "<group>"; };
 		CECB52A02B227E9500CE3A45 /* FlavorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorPicker.swift; sourceTree = "<group>"; };
 		CEE2EF9E2A90B37900391EA9 /* PresentationDetents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationDetents.swift; sourceTree = "<group>"; };
+		CEEF096D2B3E1499009E65E6 /* WidthPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidthPreferenceKey.swift; sourceTree = "<group>"; };
+		CEEF09712B3E152F009E65E6 /* EqualWidthModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualWidthModifier.swift; sourceTree = "<group>"; };
+		CEEF09742B3E1676009E65E6 /* WidthPreferenceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidthPreferenceExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +215,8 @@
 				CE68C9272B0801B20043A6F0 /* DogProfileView.swift */,
 				CE9B22772B3331420074A0A0 /* EnvironmentValueExample.swift */,
 				CE9B22792B3339E90074A0A0 /* TransformEnvironmentExample.swift */,
+				CE6400422B3CC3DD001CF70A /* Test.swift */,
+				CEEF09732B3E1639009E65E6 /* WidthPreferenceExample */,
 				CE9B22852B3B7C170074A0A0 /* PreferenceKeyExample */,
 				CEBFCCBD2B3C956E00D0C48E /* PreferenceScrollViewExample */,
 			);
@@ -330,6 +340,16 @@
 			path = PreferenceScrollViewExample;
 			sourceTree = "<group>";
 		};
+		CEEF09732B3E1639009E65E6 /* WidthPreferenceExample */ = {
+			isa = PBXGroup;
+			children = (
+				CEEF096D2B3E1499009E65E6 /* WidthPreferenceKey.swift */,
+				CEEF09712B3E152F009E65E6 /* EqualWidthModifier.swift */,
+				CEEF09742B3E1676009E65E6 /* WidthPreferenceExample.swift */,
+			);
+			path = WidthPreferenceExample;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -435,6 +455,7 @@
 				CE0E16122AD4829A0025F11D /* QuickLookPreviewButton.swift in Sources */,
 				CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */,
 				CE57910D2AB59AF400571E6B /* ImportingExampleView.swift in Sources */,
+				CEEF09722B3E152F009E65E6 /* EqualWidthModifier.swift in Sources */,
 				CE9B227A2B3339E90074A0A0 /* TransformEnvironmentExample.swift in Sources */,
 				CE9B227C2B3787270074A0A0 /* PreferenceScrollViewExample.swift in Sources */,
 				CE84C9162AA221A50007AE8A /* ExportingExampleView.swift in Sources */,
@@ -442,9 +463,12 @@
 				CEA3EE4F2A7161DA00E829DA /* SaveButton.swift in Sources */,
 				CEA3EE562A76A04A00E829DA /* ConfirmFileImport.swift in Sources */,
 				CE6D2AB32AC5CD9300238065 /* MoveTextFileButton.swift in Sources */,
+				CEEF096E2B3E1499009E65E6 /* WidthPreferenceKey.swift in Sources */,
 				CE24FD652A857138005C9FB6 /* ShowLicenseAgreement.swift in Sources */,
 				CE1088702A7C05B500689958 /* ConfirmFileImportMessage.swift in Sources */,
 				CE3ABDD62A8CE19F0065CE5D /* PopoverExample.swift in Sources */,
+				CEEF09752B3E1676009E65E6 /* WidthPreferenceExample.swift in Sources */,
+				CE6400432B3CC3DD001CF70A /* Test.swift in Sources */,
 				CE3EB8D52AD0B89D005F4D49 /* InspectorExample.swift in Sources */,
 				CEA3EE412A70357300E829DA /* AlertWithErrorView.swift in Sources */,
 			);
