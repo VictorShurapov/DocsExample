@@ -22,8 +22,9 @@ struct StateModifiers: View {
                 Section("Preferences") {
                     NavigationLink("Preference Key", destination: PreferenceKeyExample())
                     NavigationLink("Preference Scroll View", destination: PreferenceScrollViewExample())
+                    NavigationLink("Total Value Preference", destination: TotalValuePreferenceExample())
                     NavigationLink("Width Preference", destination: WidthPreferenceExample())
-                    NavigationLink("Highest Value Preference", destination: HighestValuePreferenceExample())                    
+                    NavigationLink("Highest Value Preference", destination: HighestValuePreferenceExample())
                 }
             }
             .navigationTitle("View modifiers")
