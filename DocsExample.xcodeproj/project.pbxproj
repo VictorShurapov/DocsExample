@@ -66,6 +66,11 @@
 		CEEF09802B432161009E65E6 /* TotalValuePreferenceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF097F2B432161009E65E6 /* TotalValuePreferenceExample.swift */; };
 		CEEF09832B4321AE009E65E6 /* TotalValuePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF09822B4321AE009E65E6 /* TotalValuePreferenceKey.swift */; };
 		CEEF09852B4321D4009E65E6 /* CartProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF09842B4321D4009E65E6 /* CartProduct.swift */; };
+		CEF293802B4DA8C900C97A73 /* MyTextPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2937F2B4DA8C900C97A73 /* MyTextPreferenceKey.swift */; };
+		CEF293822B4DA8F700C97A73 /* MyTextPreferenceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF293812B4DA8F700C97A73 /* MyTextPreferenceData.swift */; };
+		CEF293842B4DA91B00C97A73 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF293832B4DA91B00C97A73 /* MonthView.swift */; };
+		CEF293862B4DA93A00C97A73 /* MyPreferenceViewSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF293852B4DA93A00C97A73 /* MyPreferenceViewSetter.swift */; };
+		CEF293882B4DA9B700C97A73 /* TextPreferenceBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF293872B4DA9B700C97A73 /* TextPreferenceBorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +134,11 @@
 		CEEF097F2B432161009E65E6 /* TotalValuePreferenceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalValuePreferenceExample.swift; sourceTree = "<group>"; };
 		CEEF09822B4321AE009E65E6 /* TotalValuePreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalValuePreferenceKey.swift; sourceTree = "<group>"; };
 		CEEF09842B4321D4009E65E6 /* CartProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProduct.swift; sourceTree = "<group>"; };
+		CEF2937F2B4DA8C900C97A73 /* MyTextPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextPreferenceKey.swift; sourceTree = "<group>"; };
+		CEF293812B4DA8F700C97A73 /* MyTextPreferenceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextPreferenceData.swift; sourceTree = "<group>"; };
+		CEF293832B4DA91B00C97A73 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		CEF293852B4DA93A00C97A73 /* MyPreferenceViewSetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPreferenceViewSetter.swift; sourceTree = "<group>"; };
+		CEF293872B4DA9B700C97A73 /* TextPreferenceBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPreferenceBorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -388,8 +398,21 @@
 				CEEF09812B432189009E65E6 /* TotalValuePreferenceExample */,
 				CEEF09732B3E1639009E65E6 /* WidthPreferenceExample */,
 				CEEF097A2B3E35AA009E65E6 /* HighestValuePreferenceExample */,
+				CEF293892B4DA9C600C97A73 /* TextPreferenceBorder */,
 			);
 			path = Preference;
+			sourceTree = "<group>";
+		};
+		CEF293892B4DA9C600C97A73 /* TextPreferenceBorder */ = {
+			isa = PBXGroup;
+			children = (
+				CEF2937F2B4DA8C900C97A73 /* MyTextPreferenceKey.swift */,
+				CEF293812B4DA8F700C97A73 /* MyTextPreferenceData.swift */,
+				CEF293852B4DA93A00C97A73 /* MyPreferenceViewSetter.swift */,
+				CEF293832B4DA91B00C97A73 /* MonthView.swift */,
+				CEF293872B4DA9B700C97A73 /* TextPreferenceBorder.swift */,
+			);
+			path = TextPreferenceBorder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,6 +486,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEF09852B4321D4009E65E6 /* CartProduct.swift in Sources */,
+				CEF293822B4DA8F700C97A73 /* MyTextPreferenceData.swift in Sources */,
 				CEA3EE4A2A715F8600E829DA /* AlertDataModel.swift in Sources */,
 				CEB397812AB0D1890026A5A0 /* PickTextFileButton.swift in Sources */,
 				CE9B22842B3B7BF30074A0A0 /* ViktPreferenceKey.swift in Sources */,
@@ -476,6 +500,7 @@
 				CEA3EE4C2A71600C00E829DA /* SaveDetails.swift in Sources */,
 				CECB529F2B227DAA00CE3A45 /* StateModifiers.swift in Sources */,
 				CE9B22782B3331420074A0A0 /* EnvironmentValueExample.swift in Sources */,
+				CEF293882B4DA9B700C97A73 /* TextPreferenceBorder.swift in Sources */,
 				CE24FD6D2A86863C005C9FB6 /* FullScreenCover.swift in Sources */,
 				CE10886E2A7BE45600689958 /* ConfirmEraseItemsMessage.swift in Sources */,
 				CEB38C232A9397EC00F2C118 /* PresentationBackground.swift in Sources */,
@@ -483,6 +508,7 @@
 				CEB38C272A9524D800F2C118 /* PresentationCompactAdaptation.swift in Sources */,
 				CEB38C2A2A964E4600F2C118 /* PresentationContentInteraction.swift in Sources */,
 				CEA3EE542A72E2CA00E829DA /* ConfirmEraseItems.swift in Sources */,
+				CEF293862B4DA93A00C97A73 /* MyPreferenceViewSetter.swift in Sources */,
 				CE24FD692A858AE2005C9FB6 /* ShowPartDetail.swift in Sources */,
 				CE0427AB2AB8611A009D7CEE /* FileMoverExample.swift in Sources */,
 				CE68C9282B0801B20043A6F0 /* DogProfileView.swift in Sources */,
@@ -492,7 +518,9 @@
 				CEA3EE332A702FC400E829DA /* ContentView.swift in Sources */,
 				CE9B22822B3B7A1A0074A0A0 /* PreferenceKeyExample.swift in Sources */,
 				CEA3EE432A7036BD00E829DA /* AlertLocalizedError.swift in Sources */,
+				CEF293842B4DA91B00C97A73 /* MonthView.swift in Sources */,
 				CEEF09792B3E34B2009E65E6 /* SFWeather.swift in Sources */,
+				CEF293802B4DA8C900C97A73 /* MyTextPreferenceKey.swift in Sources */,
 				CE6D2AB12AC5CC3500238065 /* ImportFileButton.swift in Sources */,
 				CEB38C252A951EA500F2C118 /* PresentationBackgroundInteraction.swift in Sources */,
 				CE24FD6F2A868EA3005C9FB6 /* FullScreenCoverItemOnDismissContent.swift in Sources */,
