@@ -16,6 +16,10 @@
 		CE24FD692A858AE2005C9FB6 /* ShowPartDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24FD682A858AE2005C9FB6 /* ShowPartDetail.swift */; };
 		CE24FD6D2A86863C005C9FB6 /* FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24FD6C2A86863C005C9FB6 /* FullScreenCover.swift */; };
 		CE24FD6F2A868EA3005C9FB6 /* FullScreenCoverItemOnDismissContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24FD6E2A868EA3005C9FB6 /* FullScreenCoverItemOnDismissContent.swift */; };
+		CE2B2F8E2B5053C9003C8C6A /* TextAnchorPreferenceBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2F8D2B5053C9003C8C6A /* TextAnchorPreferenceBorder.swift */; };
+		CE2B2F902B505404003C8C6A /* MonthAnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2F8F2B505404003C8C6A /* MonthAnchorView.swift */; };
+		CE2B2F922B505422003C8C6A /* TextAnchorPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2F912B505422003C8C6A /* TextAnchorPreferenceKey.swift */; };
+		CE2B2F942B505449003C8C6A /* TextAnchorPreferenceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2F932B505449003C8C6A /* TextAnchorPreferenceData.swift */; };
 		CE3ABDD62A8CE19F0065CE5D /* PopoverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABDD52A8CE19F0065CE5D /* PopoverExample.swift */; };
 		CE3ABDD82A8E628D0065CE5D /* PopoverExampleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABDD72A8E628D0065CE5D /* PopoverExampleItem.swift */; };
 		CE3ABDDB2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABDDA2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift */; };
@@ -83,6 +87,10 @@
 		CE24FD682A858AE2005C9FB6 /* ShowPartDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPartDetail.swift; sourceTree = "<group>"; };
 		CE24FD6C2A86863C005C9FB6 /* FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover.swift; sourceTree = "<group>"; };
 		CE24FD6E2A868EA3005C9FB6 /* FullScreenCoverItemOnDismissContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCoverItemOnDismissContent.swift; sourceTree = "<group>"; };
+		CE2B2F8D2B5053C9003C8C6A /* TextAnchorPreferenceBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnchorPreferenceBorder.swift; sourceTree = "<group>"; };
+		CE2B2F8F2B505404003C8C6A /* MonthAnchorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAnchorView.swift; sourceTree = "<group>"; };
+		CE2B2F912B505422003C8C6A /* TextAnchorPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnchorPreferenceKey.swift; sourceTree = "<group>"; };
+		CE2B2F932B505449003C8C6A /* TextAnchorPreferenceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnchorPreferenceData.swift; sourceTree = "<group>"; };
 		CE3ABDD52A8CE19F0065CE5D /* PopoverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverExample.swift; sourceTree = "<group>"; };
 		CE3ABDD72A8E628D0065CE5D /* PopoverExampleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverExampleItem.swift; sourceTree = "<group>"; };
 		CE3ABDDA2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationInteractiveDismiss.swift; sourceTree = "<group>"; };
@@ -179,6 +187,17 @@
 				CE24FD6E2A868EA3005C9FB6 /* FullScreenCoverItemOnDismissContent.swift */,
 			);
 			path = FullScreenCover;
+			sourceTree = "<group>";
+		};
+		CE2B2F8C2B5053BB003C8C6A /* TextAnchorPreferenceBorder */ = {
+			isa = PBXGroup;
+			children = (
+				CE2B2F932B505449003C8C6A /* TextAnchorPreferenceData.swift */,
+				CE2B2F912B505422003C8C6A /* TextAnchorPreferenceKey.swift */,
+				CE2B2F8F2B505404003C8C6A /* MonthAnchorView.swift */,
+				CE2B2F8D2B5053C9003C8C6A /* TextAnchorPreferenceBorder.swift */,
+			);
+			path = TextAnchorPreferenceBorder;
 			sourceTree = "<group>";
 		};
 		CE3ABDD92A8E64240065CE5D /* Popover */ = {
@@ -399,6 +418,7 @@
 				CEEF09732B3E1639009E65E6 /* WidthPreferenceExample */,
 				CEEF097A2B3E35AA009E65E6 /* HighestValuePreferenceExample */,
 				CEF293892B4DA9C600C97A73 /* TextPreferenceBorder */,
+				CE2B2F8C2B5053BB003C8C6A /* TextAnchorPreferenceBorder */,
 			);
 			path = Preference;
 			sourceTree = "<group>";
@@ -489,11 +509,13 @@
 				CEF293822B4DA8F700C97A73 /* MyTextPreferenceData.swift in Sources */,
 				CEA3EE4A2A715F8600E829DA /* AlertDataModel.swift in Sources */,
 				CEB397812AB0D1890026A5A0 /* PickTextFileButton.swift in Sources */,
+				CE2B2F942B505449003C8C6A /* TextAnchorPreferenceData.swift in Sources */,
 				CE9B22842B3B7BF30074A0A0 /* ViktPreferenceKey.swift in Sources */,
 				CE3ABDDB2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift in Sources */,
 				CECB52A12B227E9500CE3A45 /* FlavorPicker.swift in Sources */,
 				CE93DEC92AFAF1D600C836C2 /* PhotoPickerExample.swift in Sources */,
 				CEBFCCBF2B3C959F00D0C48E /* SizePreferenceKey.swift in Sources */,
+				CE2B2F922B505422003C8C6A /* TextAnchorPreferenceKey.swift in Sources */,
 				CEEF097C2B3E35CA009E65E6 /* HighestValuePreferenceKey.swift in Sources */,
 				CECB529D2B227D5200CE3A45 /* PresentationModifiers.swift in Sources */,
 				CEB38C2C2A96659600F2C118 /* PresentationCornerRadius.swift in Sources */,
@@ -522,12 +544,14 @@
 				CEEF09792B3E34B2009E65E6 /* SFWeather.swift in Sources */,
 				CEF293802B4DA8C900C97A73 /* MyTextPreferenceKey.swift in Sources */,
 				CE6D2AB12AC5CC3500238065 /* ImportFileButton.swift in Sources */,
+				CE2B2F8E2B5053C9003C8C6A /* TextAnchorPreferenceBorder.swift in Sources */,
 				CEB38C252A951EA500F2C118 /* PresentationBackgroundInteraction.swift in Sources */,
 				CE24FD6F2A868EA3005C9FB6 /* FullScreenCoverItemOnDismissContent.swift in Sources */,
 				CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */,
 				CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */,
 				CE0E16122AD4829A0025F11D /* QuickLookPreviewButton.swift in Sources */,
 				CEE2EF9F2A90B37900391EA9 /* PresentationDetents.swift in Sources */,
+				CE2B2F902B505404003C8C6A /* MonthAnchorView.swift in Sources */,
 				CE57910D2AB59AF400571E6B /* ImportingExampleView.swift in Sources */,
 				CEEF09722B3E152F009E65E6 /* EqualWidthModifier.swift in Sources */,
 				CE9B227A2B3339E90074A0A0 /* TransformEnvironmentExample.swift in Sources */,

@@ -26,6 +26,9 @@ struct StateModifiers: View {
                     NavigationLink("Width Preference", destination: WidthPreferenceExample())
                     NavigationLink("Highest Value Preference", destination: HighestValuePreferenceExample())
                     NavigationLink("Text Preference Border", destination: TextPreferenceBorder())
+                    NavigationLink("Text Anchor Preference Border", destination: TextAnchorPreferenceBorder())
+
+                    
                     
                     
                 }
