@@ -14,6 +14,8 @@ struct MonthView: View {
     
     var body: some View {
         Text(label)
+            .lineLimit(1)
+            .minimumScaleFactor(0.7)
             .padding(10)
             .background(MyPreferenceViewSetter(index: index)).onTapGesture {
                 activeMonth = index

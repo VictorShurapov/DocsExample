@@ -44,8 +44,7 @@ struct TextPreferenceBorder: View {
                 }
                 Spacer()
             }
-            .minimumScaleFactor(0.7)
-            .lineLimit(1)
+            .navigationTitle("Text Preference Border")
             .onPreferenceChange(MyTextPreferenceKey.self) { myTextPreferenceDataArray in
                 for myTextPreferenceData in myTextPreferenceDataArray {
                     rects[myTextPreferenceData.index] = myTextPreferenceData.rect
