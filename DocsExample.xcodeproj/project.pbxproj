@@ -20,6 +20,12 @@
 		CE2B2F902B505404003C8C6A /* MonthAnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2F8F2B505404003C8C6A /* MonthAnchorView.swift */; };
 		CE2B2F922B505422003C8C6A /* TextAnchorPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2F912B505422003C8C6A /* TextAnchorPreferenceKey.swift */; };
 		CE2B2F942B505449003C8C6A /* TextAnchorPreferenceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2F932B505449003C8C6A /* TextAnchorPreferenceData.swift */; };
+		CE2B2F962B54496B003C8C6A /* MyViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2F952B54496B003C8C6A /* MyViewType.swift */; };
+		CE2B2F992B544A5E003C8C6A /* MinimapPreferenceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2F982B544A5E003C8C6A /* MinimapPreferenceData.swift */; };
+		CE2B2F9B2B544C51003C8C6A /* MinimapPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2F9A2B544C51003C8C6A /* MinimapPreferenceKey.swift */; };
+		CE2B2F9D2B544CDA003C8C6A /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2F9C2B544CDA003C8C6A /* FormField.swift */; };
+		CE2B2F9F2B545016003C8C6A /* MiniMapPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2F9E2B545016003C8C6A /* MiniMapPreference.swift */; };
+		CE2B2FA12B54504A003C8C6A /* MiniMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B2FA02B54504A003C8C6A /* MiniMap.swift */; };
 		CE3ABDD62A8CE19F0065CE5D /* PopoverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABDD52A8CE19F0065CE5D /* PopoverExample.swift */; };
 		CE3ABDD82A8E628D0065CE5D /* PopoverExampleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABDD72A8E628D0065CE5D /* PopoverExampleItem.swift */; };
 		CE3ABDDB2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABDDA2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift */; };
@@ -91,6 +97,12 @@
 		CE2B2F8F2B505404003C8C6A /* MonthAnchorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthAnchorView.swift; sourceTree = "<group>"; };
 		CE2B2F912B505422003C8C6A /* TextAnchorPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnchorPreferenceKey.swift; sourceTree = "<group>"; };
 		CE2B2F932B505449003C8C6A /* TextAnchorPreferenceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnchorPreferenceData.swift; sourceTree = "<group>"; };
+		CE2B2F952B54496B003C8C6A /* MyViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewType.swift; sourceTree = "<group>"; };
+		CE2B2F982B544A5E003C8C6A /* MinimapPreferenceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimapPreferenceData.swift; sourceTree = "<group>"; };
+		CE2B2F9A2B544C51003C8C6A /* MinimapPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimapPreferenceKey.swift; sourceTree = "<group>"; };
+		CE2B2F9C2B544CDA003C8C6A /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		CE2B2F9E2B545016003C8C6A /* MiniMapPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMapPreference.swift; sourceTree = "<group>"; };
+		CE2B2FA02B54504A003C8C6A /* MiniMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMap.swift; sourceTree = "<group>"; };
 		CE3ABDD52A8CE19F0065CE5D /* PopoverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverExample.swift; sourceTree = "<group>"; };
 		CE3ABDD72A8E628D0065CE5D /* PopoverExampleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverExampleItem.swift; sourceTree = "<group>"; };
 		CE3ABDDA2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationInteractiveDismiss.swift; sourceTree = "<group>"; };
@@ -198,6 +210,19 @@
 				CE2B2F8D2B5053C9003C8C6A /* TextAnchorPreferenceBorder.swift */,
 			);
 			path = TextAnchorPreferenceBorder;
+			sourceTree = "<group>";
+		};
+		CE2B2F972B544A25003C8C6A /* MiniMapPreference */ = {
+			isa = PBXGroup;
+			children = (
+				CE2B2F952B54496B003C8C6A /* MyViewType.swift */,
+				CE2B2F982B544A5E003C8C6A /* MinimapPreferenceData.swift */,
+				CE2B2F9A2B544C51003C8C6A /* MinimapPreferenceKey.swift */,
+				CE2B2F9C2B544CDA003C8C6A /* FormField.swift */,
+				CE2B2FA02B54504A003C8C6A /* MiniMap.swift */,
+				CE2B2F9E2B545016003C8C6A /* MiniMapPreference.swift */,
+			);
+			path = MiniMapPreference;
 			sourceTree = "<group>";
 		};
 		CE3ABDD92A8E64240065CE5D /* Popover */ = {
@@ -419,6 +444,7 @@
 				CEEF097A2B3E35AA009E65E6 /* HighestValuePreferenceExample */,
 				CEF293892B4DA9C600C97A73 /* TextPreferenceBorder */,
 				CE2B2F8C2B5053BB003C8C6A /* TextAnchorPreferenceBorder */,
+				CE2B2F972B544A25003C8C6A /* MiniMapPreference */,
 			);
 			path = Preference;
 			sourceTree = "<group>";
@@ -505,6 +531,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2B2F9D2B544CDA003C8C6A /* FormField.swift in Sources */,
 				CEEF09852B4321D4009E65E6 /* CartProduct.swift in Sources */,
 				CEF293822B4DA8F700C97A73 /* MyTextPreferenceData.swift in Sources */,
 				CEA3EE4A2A715F8600E829DA /* AlertDataModel.swift in Sources */,
@@ -512,13 +539,16 @@
 				CE2B2F942B505449003C8C6A /* TextAnchorPreferenceData.swift in Sources */,
 				CE9B22842B3B7BF30074A0A0 /* ViktPreferenceKey.swift in Sources */,
 				CE3ABDDB2A8FB6DA0065CE5D /* PresentationInteractiveDismiss.swift in Sources */,
+				CE2B2F9B2B544C51003C8C6A /* MinimapPreferenceKey.swift in Sources */,
 				CECB52A12B227E9500CE3A45 /* FlavorPicker.swift in Sources */,
 				CE93DEC92AFAF1D600C836C2 /* PhotoPickerExample.swift in Sources */,
+				CE2B2FA12B54504A003C8C6A /* MiniMap.swift in Sources */,
 				CEBFCCBF2B3C959F00D0C48E /* SizePreferenceKey.swift in Sources */,
 				CE2B2F922B505422003C8C6A /* TextAnchorPreferenceKey.swift in Sources */,
 				CEEF097C2B3E35CA009E65E6 /* HighestValuePreferenceKey.swift in Sources */,
 				CECB529D2B227D5200CE3A45 /* PresentationModifiers.swift in Sources */,
 				CEB38C2C2A96659600F2C118 /* PresentationCornerRadius.swift in Sources */,
+				CE2B2F962B54496B003C8C6A /* MyViewType.swift in Sources */,
 				CEA3EE4C2A71600C00E829DA /* SaveDetails.swift in Sources */,
 				CECB529F2B227DAA00CE3A45 /* StateModifiers.swift in Sources */,
 				CE9B22782B3331420074A0A0 /* EnvironmentValueExample.swift in Sources */,
@@ -529,6 +559,7 @@
 				CEEF097E2B3E3715009E65E6 /* HighestValuePreferenceExample.swift in Sources */,
 				CEB38C272A9524D800F2C118 /* PresentationCompactAdaptation.swift in Sources */,
 				CEB38C2A2A964E4600F2C118 /* PresentationContentInteraction.swift in Sources */,
+				CE2B2F9F2B545016003C8C6A /* MiniMapPreference.swift in Sources */,
 				CEA3EE542A72E2CA00E829DA /* ConfirmEraseItems.swift in Sources */,
 				CEF293862B4DA93A00C97A73 /* MyPreferenceViewSetter.swift in Sources */,
 				CE24FD692A858AE2005C9FB6 /* ShowPartDetail.swift in Sources */,
@@ -540,6 +571,7 @@
 				CEA3EE332A702FC400E829DA /* ContentView.swift in Sources */,
 				CE9B22822B3B7A1A0074A0A0 /* PreferenceKeyExample.swift in Sources */,
 				CEA3EE432A7036BD00E829DA /* AlertLocalizedError.swift in Sources */,
+				CE2B2F992B544A5E003C8C6A /* MinimapPreferenceData.swift in Sources */,
 				CEF293842B4DA91B00C97A73 /* MonthView.swift in Sources */,
 				CEEF09792B3E34B2009E65E6 /* SFWeather.swift in Sources */,
 				CEF293802B4DA8C900C97A73 /* MyTextPreferenceKey.swift in Sources */,
