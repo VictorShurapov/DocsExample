@@ -13,6 +13,7 @@ struct ContentView: View {
             List {
                 NavigationLink("Presentation modifiers", destination: PresentationModifiers())
                 NavigationLink("State modifiers", destination: StateModifiers())
+                NavigationLink("Other modifiers", destination: OtherModifiers())                
             }
         } detail: {
             NavigationStack {
