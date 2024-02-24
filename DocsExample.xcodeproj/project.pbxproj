@@ -60,6 +60,8 @@
 		CEB38C2A2A964E4600F2C118 /* PresentationContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */; };
 		CEB38C2C2A96659600F2C118 /* PresentationCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */; };
 		CEB397812AB0D1890026A5A0 /* PickTextFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB397802AB0D1890026A5A0 /* PickTextFileButton.swift */; };
+		CEB6B0E62B8A4EA700FD04E2 /* LookAroundExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6B0E52B8A4EA700FD04E2 /* LookAroundExample.swift */; };
+		CEB6B0E82B8A4EE900FD04E2 /* LookAroundViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6B0E72B8A4EE900FD04E2 /* LookAroundViewer.swift */; };
 		CEBFCCBF2B3C959F00D0C48E /* SizePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBFCCBE2B3C959F00D0C48E /* SizePreferenceKey.swift */; };
 		CEBFCCC12B3C95D000D0C48E /* SizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBFCCC02B3C95D000D0C48E /* SizeModifier.swift */; };
 		CECB529D2B227D5200CE3A45 /* PresentationModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB529C2B227D5200CE3A45 /* PresentationModifiers.swift */; };
@@ -138,6 +140,8 @@
 		CEB38C292A964E4600F2C118 /* PresentationContentInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationContentInteraction.swift; sourceTree = "<group>"; };
 		CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationCornerRadius.swift; sourceTree = "<group>"; };
 		CEB397802AB0D1890026A5A0 /* PickTextFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTextFileButton.swift; sourceTree = "<group>"; };
+		CEB6B0E52B8A4EA700FD04E2 /* LookAroundExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAroundExample.swift; sourceTree = "<group>"; };
+		CEB6B0E72B8A4EE900FD04E2 /* LookAroundViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAroundViewer.swift; sourceTree = "<group>"; };
 		CEBFCCBE2B3C959F00D0C48E /* SizePreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizePreferenceKey.swift; sourceTree = "<group>"; };
 		CEBFCCC02B3C95D000D0C48E /* SizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeModifier.swift; sourceTree = "<group>"; };
 		CECB529C2B227D5200CE3A45 /* PresentationModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationModifiers.swift; sourceTree = "<group>"; };
@@ -334,6 +338,7 @@
 			children = (
 				CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */,
 				CEA3EE322A702FC400E829DA /* ContentView.swift */,
+				CEB6B0E92B8A4F2800FD04E2 /* LookAroundViewer */,
 				CE96F2E42B2275AB00C6125C /* StateModifiers */,
 				CE96F2E52B2275DD00C6125C /* PresentationModifiers */,
 				CEA3EE362A702FC700E829DA /* Preview Content */,
@@ -392,6 +397,15 @@
 				CEB38C2B2A96659600F2C118 /* PresentationCornerRadius.swift */,
 			);
 			path = "Sheet and popover configuration";
+			sourceTree = "<group>";
+		};
+		CEB6B0E92B8A4F2800FD04E2 /* LookAroundViewer */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6B0E52B8A4EA700FD04E2 /* LookAroundExample.swift */,
+				CEB6B0E72B8A4EE900FD04E2 /* LookAroundViewer.swift */,
+			);
+			path = LookAroundViewer;
 			sourceTree = "<group>";
 		};
 		CEBFCCBD2B3C956E00D0C48E /* PreferenceScrollViewExample */ = {
@@ -578,6 +592,7 @@
 				CE6D2AB12AC5CC3500238065 /* ImportFileButton.swift in Sources */,
 				CE2B2F8E2B5053C9003C8C6A /* TextAnchorPreferenceBorder.swift in Sources */,
 				CEB38C252A951EA500F2C118 /* PresentationBackgroundInteraction.swift in Sources */,
+				CEB6B0E82B8A4EE900FD04E2 /* LookAroundViewer.swift in Sources */,
 				CE24FD6F2A868EA3005C9FB6 /* FullScreenCoverItemOnDismissContent.swift in Sources */,
 				CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */,
 				CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */,
@@ -591,6 +606,7 @@
 				CEEF09772B3E339C009E65E6 /* Test.swift in Sources */,
 				CE84C9162AA221A50007AE8A /* ExportingExampleView.swift in Sources */,
 				CE632E332A9905500042D9AD /* TextDocument.swift in Sources */,
+				CEB6B0E62B8A4EA700FD04E2 /* LookAroundExample.swift in Sources */,
 				CEEF09802B432161009E65E6 /* TotalValuePreferenceExample.swift in Sources */,
 				CEA3EE4F2A7161DA00E829DA /* SaveButton.swift in Sources */,
 				CEA3EE562A76A04A00E829DA /* ConfirmFileImport.swift in Sources */,
