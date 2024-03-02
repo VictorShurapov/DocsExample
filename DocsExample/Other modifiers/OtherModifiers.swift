@@ -13,6 +13,8 @@ struct OtherModifiers: View {
             List {
                 Section("MapKit") {
                     NavigationLink("Look Around Viewer", destination: LookAroundViewer())
+                    NavigationLink("Map Camera Keyframe Animator", destination: MapCameraKeyframeAnimatorExample())
+
                 }
             }
             .navigationTitle("Other modifiers")
