@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
-import MapKit
 
 
-struct Test: View {
 
-    var body: some View {
-        Text("")
-    }
+
+
+#Preview {
+    KeyframeAnimatorView()
 }
+

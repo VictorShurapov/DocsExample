@@ -35,6 +35,11 @@
 		CE68C9282B0801B20043A6F0 /* DogProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68C9272B0801B20043A6F0 /* DogProfileView.swift */; };
 		CE6D2AB12AC5CC3500238065 /* ImportFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D2AB02AC5CC3500238065 /* ImportFileButton.swift */; };
 		CE6D2AB32AC5CD9300238065 /* MoveTextFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D2AB22AC5CD9300238065 /* MoveTextFileButton.swift */; };
+		CE71F40A2B990B8D0042ED28 /* ThreePhaseAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F4092B990B8D0042ED28 /* ThreePhaseAnimationView.swift */; };
+		CE71F40C2B990BBC0042ED28 /* AnimationPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F40B2B990BBC0042ED28 /* AnimationPhase.swift */; };
+		CE71F40E2B990BD80042ED28 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F40D2B990BD80042ED28 /* EmojiView.swift */; };
+		CE71F4102B9B66230042ED28 /* KeyframeAnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F40F2B9B66230042ED28 /* KeyframeAnimatorView.swift */; };
+		CE71F4122B9B66620042ED28 /* AnimationValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F4112B9B66620042ED28 /* AnimationValues.swift */; };
 		CE84C9162AA221A50007AE8A /* ExportingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84C9152AA221A50007AE8A /* ExportingExampleView.swift */; };
 		CE93DEC92AFAF1D600C836C2 /* PhotoPickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93DEC82AFAF1D600C836C2 /* PhotoPickerExample.swift */; };
 		CE9B22782B3331420074A0A0 /* EnvironmentValueExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B22772B3331420074A0A0 /* EnvironmentValueExample.swift */; };
@@ -116,6 +121,11 @@
 		CE68C9272B0801B20043A6F0 /* DogProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogProfileView.swift; sourceTree = "<group>"; };
 		CE6D2AB02AC5CC3500238065 /* ImportFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportFileButton.swift; sourceTree = "<group>"; };
 		CE6D2AB22AC5CD9300238065 /* MoveTextFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTextFileButton.swift; sourceTree = "<group>"; };
+		CE71F4092B990B8D0042ED28 /* ThreePhaseAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePhaseAnimationView.swift; sourceTree = "<group>"; };
+		CE71F40B2B990BBC0042ED28 /* AnimationPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPhase.swift; sourceTree = "<group>"; };
+		CE71F40D2B990BD80042ED28 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		CE71F40F2B9B66230042ED28 /* KeyframeAnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimatorView.swift; sourceTree = "<group>"; };
+		CE71F4112B9B66620042ED28 /* AnimationValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationValues.swift; sourceTree = "<group>"; };
 		CE84C9152AA221A50007AE8A /* ExportingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportingExampleView.swift; sourceTree = "<group>"; };
 		CE93DEC82AFAF1D600C836C2 /* PhotoPickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerExample.swift; sourceTree = "<group>"; };
 		CE9B22772B3331420074A0A0 /* EnvironmentValueExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValueExample.swift; sourceTree = "<group>"; };
@@ -242,6 +252,34 @@
 			path = Popover;
 			sourceTree = "<group>";
 		};
+		CE4F34B32B9B8753003A1D61 /* Keyframe Animator */ = {
+			isa = PBXGroup;
+			children = (
+				CE71F40F2B9B66230042ED28 /* KeyframeAnimatorView.swift */,
+				CE71F4112B9B66620042ED28 /* AnimationValues.swift */,
+			);
+			path = "Keyframe Animator";
+			sourceTree = "<group>";
+		};
+		CE4F34B42B9B8769003A1D61 /* Phase animation */ = {
+			isa = PBXGroup;
+			children = (
+				CE71F40B2B990BBC0042ED28 /* AnimationPhase.swift */,
+				CE71F4092B990B8D0042ED28 /* ThreePhaseAnimationView.swift */,
+			);
+			path = "Phase animation";
+			sourceTree = "<group>";
+		};
+		CE4F34B52B9B8777003A1D61 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				CE71F40D2B990BD80042ED28 /* EmojiView.swift */,
+				CE4F34B32B9B8753003A1D61 /* Keyframe Animator */,
+				CE4F34B42B9B8769003A1D61 /* Phase animation */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		CE6D2AAC2AC5CB2900238065 /* FileOperations */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,7 +322,6 @@
 		CE96F2E42B2275AB00C6125C /* StateModifiers */ = {
 			isa = PBXGroup;
 			children = (
-				CEEF09762B3E339C009E65E6 /* Test.swift */,
 				CECB529E2B227DAA00CE3A45 /* StateModifiers.swift */,
 				CECB52A02B227E9500CE3A45 /* FlavorPicker.swift */,
 				CE68C9272B0801B20043A6F0 /* DogProfileView.swift */,
@@ -342,6 +379,8 @@
 			children = (
 				CEA3EE302A702FC400E829DA /* DocsExampleApp.swift */,
 				CEA3EE322A702FC400E829DA /* ContentView.swift */,
+				CEEF09762B3E339C009E65E6 /* Test.swift */,
+				CE4F34B52B9B8777003A1D61 /* Animation */,
 				CEB6B0EC2B8A536700FD04E2 /* Other modifiers */,
 				CE96F2E42B2275AB00C6125C /* StateModifiers */,
 				CE96F2E52B2275DD00C6125C /* PresentationModifiers */,
@@ -561,6 +600,7 @@
 			files = (
 				CE2B2F9D2B544CDA003C8C6A /* FormField.swift in Sources */,
 				CEEF09852B4321D4009E65E6 /* CartProduct.swift in Sources */,
+				CE71F40E2B990BD80042ED28 /* EmojiView.swift in Sources */,
 				CEF293822B4DA8F700C97A73 /* MyTextPreferenceData.swift in Sources */,
 				CEA3EE4A2A715F8600E829DA /* AlertDataModel.swift in Sources */,
 				CEB397812AB0D1890026A5A0 /* PickTextFileButton.swift in Sources */,
@@ -571,9 +611,12 @@
 				CECB52A12B227E9500CE3A45 /* FlavorPicker.swift in Sources */,
 				CE93DEC92AFAF1D600C836C2 /* PhotoPickerExample.swift in Sources */,
 				CE2B2FA12B54504A003C8C6A /* MiniMap.swift in Sources */,
+				CE71F40A2B990B8D0042ED28 /* ThreePhaseAnimationView.swift in Sources */,
 				CEBFCCBF2B3C959F00D0C48E /* SizePreferenceKey.swift in Sources */,
 				CE2B2F922B505422003C8C6A /* TextAnchorPreferenceKey.swift in Sources */,
+				CE71F4122B9B66620042ED28 /* AnimationValues.swift in Sources */,
 				CEEF097C2B3E35CA009E65E6 /* HighestValuePreferenceKey.swift in Sources */,
+				CE71F40C2B990BBC0042ED28 /* AnimationPhase.swift in Sources */,
 				CECB529D2B227D5200CE3A45 /* PresentationModifiers.swift in Sources */,
 				CEB38C2C2A96659600F2C118 /* PresentationCornerRadius.swift in Sources */,
 				CE2B2F962B54496B003C8C6A /* MyViewType.swift in Sources */,
@@ -587,6 +630,7 @@
 				CEEF097E2B3E3715009E65E6 /* HighestValuePreferenceExample.swift in Sources */,
 				CEB38C272A9524D800F2C118 /* PresentationCompactAdaptation.swift in Sources */,
 				CEB38C2A2A964E4600F2C118 /* PresentationContentInteraction.swift in Sources */,
+				CE71F4102B9B66230042ED28 /* KeyframeAnimatorView.swift in Sources */,
 				CE2B2F9F2B545016003C8C6A /* MiniMapPreference.swift in Sources */,
 				CEB6B0EB2B8A52D900FD04E2 /* OtherModifiers.swift in Sources */,
 				CEA3EE542A72E2CA00E829DA /* ConfirmEraseItems.swift in Sources */,
