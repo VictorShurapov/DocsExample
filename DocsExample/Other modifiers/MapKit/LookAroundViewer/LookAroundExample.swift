@@ -10,7 +10,7 @@ import MapKit
 
 struct LookAroundExample: View {
     @State private var lookAroundScene: MKLookAroundScene?
-    private var coordinate = CLLocationCoordinate2D(latitude: 40.758896, longitude: -73.985130)
+    private var coordinate: CLLocationCoordinate2D = .newYork
     
     private func loadLookAroundScene() async {
         lookAroundScene = nil

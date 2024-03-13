@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CE0427AB2AB8611A009D7CEE /* FileMoverExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0427AA2AB8611A009D7CEE /* FileMoverExample.swift */; };
+		CE0B4F532BA20C7700A83045 /* CompassButtonTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B4F522BA20C7700A83045 /* CompassButtonTestView.swift */; };
+		CE0B4F552BA20EE400A83045 /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B4F542BA20EE400A83045 /* CustomMapView.swift */; };
 		CE0E16122AD4829A0025F11D /* QuickLookPreviewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E16112AD4829A0025F11D /* QuickLookPreviewButton.swift */; };
 		CE10886E2A7BE45600689958 /* ConfirmEraseItemsMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10886D2A7BE45600689958 /* ConfirmEraseItemsMessage.swift */; };
 		CE1088702A7C05B500689958 /* ConfirmFileImportMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10886F2A7C05B500689958 /* ConfirmFileImportMessage.swift */; };
@@ -94,6 +96,8 @@
 
 /* Begin PBXFileReference section */
 		CE0427AA2AB8611A009D7CEE /* FileMoverExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMoverExample.swift; sourceTree = "<group>"; };
+		CE0B4F522BA20C7700A83045 /* CompassButtonTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassButtonTestView.swift; sourceTree = "<group>"; };
+		CE0B4F542BA20EE400A83045 /* CustomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
 		CE0E16112AD4829A0025F11D /* QuickLookPreviewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookPreviewButton.swift; sourceTree = "<group>"; };
 		CE10886D2A7BE45600689958 /* ConfirmEraseItemsMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmEraseItemsMessage.swift; sourceTree = "<group>"; };
 		CE10886F2A7C05B500689958 /* ConfirmFileImportMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmFileImportMessage.swift; sourceTree = "<group>"; };
@@ -190,6 +194,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE0B4F562BA2387800A83045 /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6B0ED2B8CB22B00FD04E2 /* MapCameraKeyframeAnimatorExample.swift */,
+				CE0B4F542BA20EE400A83045 /* CustomMapView.swift */,
+				CE0B4F522BA20C7700A83045 /* CompassButtonTestView.swift */,
+				CEB6B0E92B8A4F2800FD04E2 /* LookAroundViewer */,
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
 		CE10886C2A7BE13300689958 /* ConfirmationDialog */ = {
 			isa = PBXGroup;
 			children = (
@@ -455,8 +470,7 @@
 			isa = PBXGroup;
 			children = (
 				CEB6B0EA2B8A52D900FD04E2 /* OtherModifiers.swift */,
-				CEB6B0ED2B8CB22B00FD04E2 /* MapCameraKeyframeAnimatorExample.swift */,
-				CEB6B0E92B8A4F2800FD04E2 /* LookAroundViewer */,
+				CE0B4F562BA2387800A83045 /* MapKit */,
 			);
 			path = "Other modifiers";
 			sourceTree = "<group>";
@@ -653,6 +667,7 @@
 				CEB38C252A951EA500F2C118 /* PresentationBackgroundInteraction.swift in Sources */,
 				CEB6B0E82B8A4EE900FD04E2 /* LookAroundViewer.swift in Sources */,
 				CE24FD6F2A868EA3005C9FB6 /* FullScreenCoverItemOnDismissContent.swift in Sources */,
+				CE0B4F532BA20C7700A83045 /* CompassButtonTestView.swift in Sources */,
 				CEA3EE512A71676D00E829DA /* TicketPurchase.swift in Sources */,
 				CEA3EE312A702FC400E829DA /* DocsExampleApp.swift in Sources */,
 				CE0E16122AD4829A0025F11D /* QuickLookPreviewButton.swift in Sources */,
@@ -677,6 +692,7 @@
 				CE3ABDD62A8CE19F0065CE5D /* PopoverExample.swift in Sources */,
 				CEEF09752B3E1676009E65E6 /* WidthPreferenceExample.swift in Sources */,
 				CE3EB8D52AD0B89D005F4D49 /* InspectorExample.swift in Sources */,
+				CE0B4F552BA20EE400A83045 /* CustomMapView.swift in Sources */,
 				CEA3EE412A70357300E829DA /* AlertWithErrorView.swift in Sources */,
 				CEB6B0EE2B8CB22B00FD04E2 /* MapCameraKeyframeAnimatorExample.swift in Sources */,
 			);
