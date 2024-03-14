@@ -21,6 +21,10 @@ extension CLLocationCoordinate2D {
         latitude: 37.773972,
         longitude: -122.431297
     )
+    static let kyiv: Self = .init(
+        latitude: 50.450001,
+        longitude: 30.523333
+    )    
 }
 
 struct MapCameraKeyframeAnimatorExample: View {

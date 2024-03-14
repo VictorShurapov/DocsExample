@@ -16,13 +16,12 @@ struct OtherModifiers: View {
                     NavigationLink("Map Camera Keyframe Animator", destination: MapCameraKeyframeAnimatorExample())
                     NavigationLink("Three Phase Animation View", destination: ThreePhaseAnimationView())
                     NavigationLink("Keyframe Animator View", destination: KeyframeAnimatorView())
+                    NavigationLink("Map Controls", destination: CustomMapView())
+                    NavigationLink("Map Scope Compass Button", destination: CompassButtonTestView())
+                    NavigationLink("Map Feature", destination: MapFeatureExample())
                 }
             }
             .navigationTitle("Other modifiers")
         }
     }
-}
-
-#Preview {
-    OtherModifiers()
 }
