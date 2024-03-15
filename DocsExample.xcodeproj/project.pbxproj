@@ -34,6 +34,7 @@
 		CE3EB8D52AD0B89D005F4D49 /* InspectorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3EB8D42AD0B89D005F4D49 /* InspectorExample.swift */; };
 		CE57910D2AB59AF400571E6B /* ImportingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */; };
 		CE5F8FDB2BA360E9008FA212 /* MapFeatureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F8FDA2BA360E9008FA212 /* MapFeatureExample.swift */; };
+		CE5F8FDD2BA37274008FA212 /* MapCameraChangeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5F8FDC2BA37274008FA212 /* MapCameraChangeExample.swift */; };
 		CE632E332A9905500042D9AD /* TextDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE632E322A9905500042D9AD /* TextDocument.swift */; };
 		CE68C9282B0801B20043A6F0 /* DogProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68C9272B0801B20043A6F0 /* DogProfileView.swift */; };
 		CE6D2AB12AC5CC3500238065 /* ImportFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D2AB02AC5CC3500238065 /* ImportFileButton.swift */; };
@@ -123,6 +124,7 @@
 		CE3EB8D42AD0B89D005F4D49 /* InspectorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorExample.swift; sourceTree = "<group>"; };
 		CE57910C2AB59AF400571E6B /* ImportingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportingExampleView.swift; sourceTree = "<group>"; };
 		CE5F8FDA2BA360E9008FA212 /* MapFeatureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFeatureExample.swift; sourceTree = "<group>"; };
+		CE5F8FDC2BA37274008FA212 /* MapCameraChangeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCameraChangeExample.swift; sourceTree = "<group>"; };
 		CE632E322A9905500042D9AD /* TextDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocument.swift; sourceTree = "<group>"; };
 		CE68C9272B0801B20043A6F0 /* DogProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogProfileView.swift; sourceTree = "<group>"; };
 		CE6D2AB02AC5CC3500238065 /* ImportFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportFileButton.swift; sourceTree = "<group>"; };
@@ -202,8 +204,9 @@
 				CEB6B0ED2B8CB22B00FD04E2 /* MapCameraKeyframeAnimatorExample.swift */,
 				CE0B4F542BA20EE400A83045 /* CustomMapView.swift */,
 				CE0B4F522BA20C7700A83045 /* CompassButtonTestView.swift */,
-				CEB6B0E92B8A4F2800FD04E2 /* LookAroundViewer */,
 				CE5F8FDA2BA360E9008FA212 /* MapFeatureExample.swift */,
+				CE5F8FDC2BA37274008FA212 /* MapCameraChangeExample.swift */,
+				CEB6B0E92B8A4F2800FD04E2 /* LookAroundViewer */,
 			);
 			path = MapKit;
 			sourceTree = "<group>";
@@ -659,6 +662,7 @@
 				CEBFCCC12B3C95D000D0C48E /* SizeModifier.swift in Sources */,
 				CEA3EE462A71561300E829DA /* AlertMessageView.swift in Sources */,
 				CEA3EE332A702FC400E829DA /* ContentView.swift in Sources */,
+				CE5F8FDD2BA37274008FA212 /* MapCameraChangeExample.swift in Sources */,
 				CE9B22822B3B7A1A0074A0A0 /* PreferenceKeyExample.swift in Sources */,
 				CEA3EE432A7036BD00E829DA /* AlertLocalizedError.swift in Sources */,
 				CE2B2F992B544A5E003C8C6A /* MinimapPreferenceData.swift in Sources */,

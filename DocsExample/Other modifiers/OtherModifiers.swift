@@ -19,6 +19,7 @@ struct OtherModifiers: View {
                     NavigationLink("Map Controls", destination: CustomMapView())
                     NavigationLink("Map Scope Compass Button", destination: CompassButtonTestView())
                     NavigationLink("Map Feature", destination: MapFeatureExample())
+                    NavigationLink("Map Camera Position Change", destination: MapCameraChangeExample())
                 }
             }
             .navigationTitle("Other modifiers")
