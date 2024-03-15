@@ -28,6 +28,7 @@ struct MapFeatureExample: View {
         .mapFeatureSelectionDisabled { feature in
             feature.pointOfInterestCategory == .cafe ? true : false
         }
+        .navigationTitle("mapFeatureSelection")
     }
 }
 

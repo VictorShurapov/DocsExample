@@ -31,6 +31,7 @@ struct CustomMapView: View {
             MapUserLocationButton()
         }
         .mapControlVisibility(.visible)
+        .navigationTitle("Map controls and customization")
     }
 }
 

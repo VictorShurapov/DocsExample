@@ -5,8 +5,8 @@
 //  Created by Yaro4ka on 13.03.2024.
 //
 
-import SwiftUI
 import MapKit
+import SwiftUI
 
 struct CompassButtonTestView: View {
     @Namespace var mapScope
@@ -19,6 +19,7 @@ struct CompassButtonTestView: View {
             }
         }
         .mapScope(mapScope)
+        .navigationTitle("Map controls mapScope")
     }
 }
 

@@ -39,7 +39,7 @@
 		CE68C9282B0801B20043A6F0 /* DogProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68C9272B0801B20043A6F0 /* DogProfileView.swift */; };
 		CE6D2AB12AC5CC3500238065 /* ImportFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D2AB02AC5CC3500238065 /* ImportFileButton.swift */; };
 		CE6D2AB32AC5CD9300238065 /* MoveTextFileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D2AB22AC5CD9300238065 /* MoveTextFileButton.swift */; };
-		CE71F40A2B990B8D0042ED28 /* ThreePhaseAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F4092B990B8D0042ED28 /* ThreePhaseAnimationView.swift */; };
+		CE71F40A2B990B8D0042ED28 /* ThreePhaseAnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F4092B990B8D0042ED28 /* ThreePhaseAnimatorView.swift */; };
 		CE71F40C2B990BBC0042ED28 /* AnimationPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F40B2B990BBC0042ED28 /* AnimationPhase.swift */; };
 		CE71F40E2B990BD80042ED28 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F40D2B990BD80042ED28 /* EmojiView.swift */; };
 		CE71F4102B9B66230042ED28 /* KeyframeAnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71F40F2B9B66230042ED28 /* KeyframeAnimatorView.swift */; };
@@ -129,7 +129,7 @@
 		CE68C9272B0801B20043A6F0 /* DogProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogProfileView.swift; sourceTree = "<group>"; };
 		CE6D2AB02AC5CC3500238065 /* ImportFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportFileButton.swift; sourceTree = "<group>"; };
 		CE6D2AB22AC5CD9300238065 /* MoveTextFileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveTextFileButton.swift; sourceTree = "<group>"; };
-		CE71F4092B990B8D0042ED28 /* ThreePhaseAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePhaseAnimationView.swift; sourceTree = "<group>"; };
+		CE71F4092B990B8D0042ED28 /* ThreePhaseAnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePhaseAnimatorView.swift; sourceTree = "<group>"; };
 		CE71F40B2B990BBC0042ED28 /* AnimationPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPhase.swift; sourceTree = "<group>"; };
 		CE71F40D2B990BD80042ED28 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 		CE71F40F2B9B66230042ED28 /* KeyframeAnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimatorView.swift; sourceTree = "<group>"; };
@@ -286,7 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				CE71F40B2B990BBC0042ED28 /* AnimationPhase.swift */,
-				CE71F4092B990B8D0042ED28 /* ThreePhaseAnimationView.swift */,
+				CE71F4092B990B8D0042ED28 /* ThreePhaseAnimatorView.swift */,
 			);
 			path = "Phase animation";
 			sourceTree = "<group>";
@@ -631,7 +631,7 @@
 				CECB52A12B227E9500CE3A45 /* FlavorPicker.swift in Sources */,
 				CE93DEC92AFAF1D600C836C2 /* PhotoPickerExample.swift in Sources */,
 				CE2B2FA12B54504A003C8C6A /* MiniMap.swift in Sources */,
-				CE71F40A2B990B8D0042ED28 /* ThreePhaseAnimationView.swift in Sources */,
+				CE71F40A2B990B8D0042ED28 /* ThreePhaseAnimatorView.swift in Sources */,
 				CEBFCCBF2B3C959F00D0C48E /* SizePreferenceKey.swift in Sources */,
 				CE2B2F922B505422003C8C6A /* TextAnchorPreferenceKey.swift in Sources */,
 				CE71F4122B9B66620042ED28 /* AnimationValues.swift in Sources */,

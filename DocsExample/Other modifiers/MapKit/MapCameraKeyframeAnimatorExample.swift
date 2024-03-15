@@ -5,8 +5,8 @@
 //  Created by Yaro4ka on 26.02.2024.
 //
 
-import SwiftUI
 import MapKit
+import SwiftUI
 
 extension CLLocationCoordinate2D {
     static let newYork: Self = .init(
@@ -54,6 +54,7 @@ struct MapCameraKeyframeAnimatorExample: View {
         .task {
             trigger.toggle()
         }
+        .navigationTitle("mapCameraKeyframeAnimator")
     }
 }
 

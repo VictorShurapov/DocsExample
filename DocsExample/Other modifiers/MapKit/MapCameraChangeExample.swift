@@ -5,8 +5,8 @@
 //  Created by Yaro4ka on 14.03.2024.
 //
 
-import SwiftUI
 import MapKit
+import SwiftUI
 
 struct MapCameraChangeExample: View {
     @State private var position: MapCameraPosition = .camera(

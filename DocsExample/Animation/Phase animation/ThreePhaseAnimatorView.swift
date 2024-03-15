@@ -1,5 +1,5 @@
 //
-//  ThreePhaseAnimationView.swift
+//  ThreePhaseAnimatorView.swift
 //  DocsExample
 //
 //  Created by Yaro4ka on 06.03.2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ThreePhaseAnimationView: View {
+struct ThreePhaseAnimatorView: View {
     var emoji: String = "❤️"
     @State private var likeCount = 1
     
@@ -31,10 +31,11 @@ struct ThreePhaseAnimationView: View {
             .onTapGesture {
                 likeCount += 1
             }
+            .navigationTitle("ThreePhaseAnimator")
     }
 }
 
 
 #Preview {
-    ThreePhaseAnimationView()
+    ThreePhaseAnimatorView()
 }

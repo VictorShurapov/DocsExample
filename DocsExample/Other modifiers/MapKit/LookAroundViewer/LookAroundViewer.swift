@@ -5,8 +5,8 @@
 //  Created by Yaro4ka on 24.02.2024.
 //
 
-import SwiftUI
 import MapKit
+import SwiftUI
 
 struct LookAroundViewer: View {
     var lookAroundScene: MKLookAroundScene?
@@ -20,6 +20,7 @@ struct LookAroundViewer: View {
             Label("Look around", systemImage: "binoculars")
         }
         .lookAroundViewer(isPresented: $isLookingAround, initialScene: lookAroundScene)
+        .navigationTitle("lookAroundViewer")
     }
 }
 

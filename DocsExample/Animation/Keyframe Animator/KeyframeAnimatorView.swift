@@ -153,6 +153,7 @@ struct KeyframeAnimatorView: View {
             .onTapGesture {
                 tapCount += 1
             }
+            .navigationTitle("KeyframeAnimator")
         }
     }
 }
